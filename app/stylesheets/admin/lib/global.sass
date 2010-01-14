@@ -1,0 +1,208 @@
+@import compass/utilities.sass
+
+!default_family = "\"Lucida Grande\", \"Helvetica Neue\", Helvetica, Tahoma, Arial, sans-serif"
+!serif_family = "Georgia, \"Times New Roman\", Times, serif"
+
+body
+  :background #f9f9f9
+  :font-family = !default_family
+  :margin 0
+
+a
+  :color #21759b
+  &:hover
+    :color #D54E21
+.root, table
+  a
+    :text-decoration none
+em
+  :font-style italic
+
+p, dl
+  :margin 1em 0
+
+dl
+  :font-size 13px
+  dt
+    :margin-bottom 0.5em
+    :font-weight bold
+    :color #333
+  dd
+    :margin-left 1em
+
+strong
+  :font-weight bold
+
+em
+  :font-style italic
+
+.clearfix
+  +clearfix
+
+#header
+  :background #464646
+  :height 46px
+  :padding 0px 1.1em
+  :color #999
+  h1
+    :background url("/images/admin/logo.gif")
+    :height 46px
+    :width 116px
+    :text-indent -100em
+    :overflow hidden
+    :float left
+    :margin 0
+  .user-info
+    :font-size 12px
+    :line-height 46px
+    :float right
+    a
+      :color #ccc
+      &:hover
+        :color #D54E21
+#body
+  :padding 15px 18px 0px
+
+#stickies
+  div
+    :border-left 3px solid #ded640
+    :background #f8f4a0
+    :padding 0px 10px
+    :height 26px
+    :line-height 26px
+    :margin-bottom 12px
+
+#content
+  :margin-left 167px
+  :font-size 11px
+  :position relative
+  .wrap
+    :position relative
+  h2
+    :color #464646
+    :font-family = !serif_family
+    :font-style italic
+    :font-size 24px
+    :line-height 100%
+    :margin-bottom 14px
+  .side_column
+    :width 260px
+    :float right
+  .wide_column
+    :margin-right 283px
+
+.box
+  :margin-bottom 1em
+  h3
+    :border 1px solid #dfdfdf
+    :border-bottom none
+    :color #464646
+    :background url("/images/admin/postbox-bg.gif")
+    :font-size 12px
+    :padding 7px 9px
+    :text-shadow #fff 0px 1px 0px
+    :font-weight bold
+    :font-family = !default_family
+    :-webkit-border-top-left-radius 6px
+    :-webkit-border-top-right-radius 6px
+    :margin 0
+  .inside
+    :border 1px solid #dfdfdf
+    :border-top none
+    :background #fff
+    :font-size 11px
+    :padding 5px 9px
+    :color #444
+    :-webkit-border-bottom-left-radius 6px
+    :-webkit-border-bottom-right-radius 6px
+    &.sectioned
+      :padding 0px
+      .section
+        :padding 5px 9px
+        &.highlighted
+          :border-top 1px solid #ddd
+          :background #eaf2fa          
+
+    .highlighted.section
+      :background #eaf2fa
+
+.halves
+  +clearfix
+  .left, .right
+    :width 49%
+  .left
+    :float left
+    :clear left
+  .right
+    :float right
+
+.tablenav
+  :padding 8px
+
+table
+  th
+    :font-weight bold
+  td, th
+    :padding 2px 4px
+  &.widefat
+    :width 100%
+    :font-size 11px
+    :border 1px solid #dfdfdf
+    :-webkit-border-top-left-radius 6px
+    :-webkit-border-top-right-radius 6px
+    :-webkit-border-bottom-left-radius 6px
+    :-webkit-border-bottom-right-radius 6px
+    thead, tfoot
+      :background url("/images/admin/gray-grad.png")
+      tr
+        :height 30px
+        th
+          :color #333
+          :padding 7px 15px 7px 10px
+    thead th
+      :border-bottom 1px solid #dfdfdf
+    tbody
+      td
+        :padding 7px 15px 9px 10px
+        :border-bottom 1px solid #dfdfdf
+        &.row-title
+          :font-weight bold
+      .even td
+        :background #fff      
+
+.inside
+  table
+    :border 1px solid #ccc
+    :border-right none
+    th, td
+      :border-right 1px solid #ccc
+    th
+      :background url(/images/admin/toolbar_bg.gif)
+      :border-bottom 1px solid #ccc
+      :text-shadow #fff 0px 1px 0px
+    
+
+.tablenav
+  :vertical-align middle
+  :font-size 11px
+
+.tablenav-pages
+  :text-align right
+
+.subsubsub
+  :color #999
+  :list-style-type none
+  :margin 0
+  li
+    :display inline
+    a
+      :text-decoration none
+      &.current
+        :color #000
+        :font-weight bold
+      
+.search-box
+  :position absolute
+  :float right
+  :top 5px
+  :right 0px

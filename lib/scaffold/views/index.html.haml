@@ -1,0 +1,30 @@
+%h2== Listing #{resource_class.to_s.pluralize}
+
+- content_for(:table_edge) do
+  %tr
+    - scaffold.columns.each do |column|
+      %th= column.to_s.humanize
+    - unless scaffold.actions.empty?
+      %th Actions
+
+%table.widefat
+  %thead
+    = yield :table_edge
+  %tbody
+    - collection.each do |member|
+      %tr{ :class => cycle('odd', 'even') }
+        - scaffold.columns.each do |column|
+          - if scaffold.linked_column == column
+            %td= link_to format_column(column, member.send(column)), :action => :show, :id => member
+          - else
+            %td= format_column(column, member.send(column))
+        - unless scaffold.actions.empty?
+          %td.actions
+            - scaffold.actions.each do |action|
+              = action(action, member)
+  %tfoot
+    = yield :table_edge
+
+- if respond_to?(:will_paginate) && collection.respond_to?(:total_pages)
+  = will_paginate collection
+  

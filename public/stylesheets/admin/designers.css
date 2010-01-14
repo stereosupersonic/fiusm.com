@@ -1,0 +1,42 @@
+/* line 1, ../../../app/stylesheets/admin/designers.sass */
+.columns {
+  background: #333;
+  padding: 4px;
+  font-size: 11px; }
+  /* line 5, ../../../app/stylesheets/admin/designers.sass */
+  .columns .column {
+    width: 180px;
+    float: left;
+    margin-right: 1em; }
+    /* line 9, ../../../app/stylesheets/admin/designers.sass */
+    .columns .column ul {
+      list-style-type: none;
+      min-height: 100px; }
+    /* line 12, ../../../app/stylesheets/admin/designers.sass */
+    .columns .column h4 {
+      background: #eee;
+      color: #222;
+      font-weight: bold;
+      padding: 3px 6px 2px;
+      margin-bottom: 1px; }
+    /* line 18, ../../../app/stylesheets/admin/designers.sass */
+    .columns .column .cell {
+      background: #fff;
+      border: 4px solid #aaa;
+      padding: 4px;
+      margin-bottom: 1px;
+      cursor: move; }
+      /* line 24, ../../../app/stylesheets/admin/designers.sass */
+      .columns .column .cell .type {
+        color: #555;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 9px; }
+      /* line 29, ../../../app/stylesheets/admin/designers.sass */
+      .columns .column .cell .tools {
+        font-size: 9px; }
+
+/* line 32, ../../../app/stylesheets/admin/designers.sass */
+h3 {
+  font-weight: bold;
+  margin-bottom: 1em; }

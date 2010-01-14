@@ -1,0 +1,40 @@
+- box "Actions" do
+  %p
+    == Status: #{@article.status.to_s.humanize}
+  %p
+    = f.submit
+    |
+    - if @article.published?
+      = link_to 'Retract article', retract_admin_article_path(@article)
+    - else
+      = link_to 'Publish article', publish_admin_article_path(@article)
+  - if @article.published?
+    - fields_for :article_actions do |action|
+      %hr
+      = action.check_box :update_published_version, :label => 'Update published version on save'
+      = action.check_box :notify_readers_of_update, :label => 'Notify readers of update'
+- box "Versions" do
+  .versions.clearfix
+    %table
+      %thead
+        %tr
+          %th
+          %th Updated by
+          %th Date and Time
+      %tbody
+        = render :partial => 'revision', :locals => { :revision => @article }
+        = render :partial => 'revision', :collection => @article.revisions[0..3]
+    %dl.legend
+      %dt.published Published
+      %dd.published %nbsp;
+      %dt.viewing   Viewing
+      %dd.viewing   %nbsp;
+    %p.more_history
+      = link_to 'More History &raquo;', admin_article_revisions_url(@article)
+- box "Tags" do
+  %p
+- box "Categories" do
+  - Category.all.each do |category|
+    %p.field.check_box
+      = check_box_tag 'article[category_ids][]', category.id, @article.categories.include?(category), :id => "article_category_#{category.id}"
+      = label_tag "article_category_#{category.id}", category.name

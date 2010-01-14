@@ -1,0 +1,20 @@
+.breadcrumbs
+  :background url(../images/layout/breadcrumbs_bg.gif) repeat-x center center
+  :font-size 18px
+  :margin 0.75em 0
+  ul
+    :height 20px
+  li
+    :background #fff url(../images/layout/breadcrumbs_divider.gif) no-repeat right center
+    :padding-right 0.75em
+    :border-left 0.3em solid #fff
+    :font-weight bold
+    :float left
+    &:first-child
+      :border-left none
+    &:last-child
+      :background #fff
+      :padding-right 0.6em
+    a
+      +underline-on-hover
+      :color #29638b

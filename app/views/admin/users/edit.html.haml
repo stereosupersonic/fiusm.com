@@ -1,0 +1,13 @@
+- form_for @user, :url => admin_user_path(@user) do |f|
+  - side_column do
+    - box "Actions" do
+      = f.submit
+  - wide_column do
+    - box "User" do
+      = f.text_field :name
+      = f.text_field :facebook_uid, :label => 'Facebook ID'
+    - box "Roles" do
+      - fields_for :role_symbols do |f|
+        - roles = :writer, :editor, :publisher, :admin
+        - roles.each do |role|
+          = f.check_box role

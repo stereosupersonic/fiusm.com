@@ -1,0 +1,9 @@
+%h2 Edit Article
+
+= error_messages_for :article
+
+- form_for @article, :url => admin_article_path(@article) do |form_builder|
+  - side_column do
+    = render :partial => 'side_column', :locals => { :f => form_builder }
+  - wide_column do
+    = render :partial => 'main_column', :locals => { :f => form_builder }

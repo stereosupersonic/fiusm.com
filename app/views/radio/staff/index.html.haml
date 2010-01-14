@@ -1,0 +1,14 @@
+%h3.embossed_header Management
+
+- if @manager
+  .general_manager.clearfix
+    = render :partial => 'host', :locals => { :host => @manager }
+
+.directors.clearfix
+  = render :partial => 'host', :collection => @directors
+
+%h3.embossed_header DJs
+
+.djs.clearfix
+  = render :partial => 'host', :collection => @djs
+  

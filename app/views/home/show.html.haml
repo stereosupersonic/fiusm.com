@@ -1,0 +1,59 @@
+#main.grid_8.alpha
+  #featured_items.canvas
+    .grid_5.alpha
+      = canvas_label 'UM vs. FIU Brawl'
+      = render Article.first, :photo => :featured_front_page
+    .grid_3.omega
+      = render Article.first
+      = render Article.first
+  #section_stories
+    - Category.all.each do |category|
+      - box category.name, :class => cycle('left', 'right') do
+        %ul
+          - category.articles.published.latest(2).each do |article|
+            %li
+              %h4= link_to article.headline, article
+              %p= article.summary
+%ul#sidebar
+  %li.account
+    = render :partial => 'layouts/account_box'
+
+  %li.other_medias
+    .radiate_fm
+      %h4 Radiate FM
+      %p.listen_live
+        = link_to 'Listen Live &raquo;'
+    .the_beacon
+      %h4 The Beacon
+      %p
+        = link_to  "View today's front page &raquo;"
+  
+  %li.popular
+    %h3
+      %span= "Test"
+    %ul#most_views
+      - 5.times do |i|
+        %li
+          %span= i + 1
+          = link_to 'Glenn Beck has right to be seen by everyone'
+    %ul#most_commented
+      %li= link_to 'Glenn Beck has right to be seen by everyone'
+      %li= link_to 'Local cafe\'s organic offerings won\'t break the bank'
+      %li= link_to 'Toledo pounds FIU in rematch'
+      %li= link_to 'SGC-MMC certainly toils - in the fields of Farmville'
+      %li= link_to 'Former Soundgarden front man fails in latest solo attempt'
+    %ul#most_emailed
+      %li= link_to 'Glenn Beck has right to be seen by everyone'
+      %li= link_to 'Local cafe\'s organic offerings won\'t break the bank'
+      %li= link_to 'Toledo pounds FIU in rematch'
+      %li= link_to 'SGC-MMC certainly toils - in the fields of Farmville'
+      %li= link_to 'Former Soundgarden front man fails in latest solo attempt'
+  
+  %li.podcasts
+  
+  %li.the_beacon
+  
+  %li.blogs
+
+  %li.advertisement
+    / = openx_banner(10)

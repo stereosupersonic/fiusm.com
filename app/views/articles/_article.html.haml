@@ -1,0 +1,27 @@
+
+:ruby
+  css ||= {}
+  css[:class] = [:article, :item, css[:class]].compact
+
+%div{ :class => css[:class].to_s, :id => css[:id] }[article]
+
+  -# label
+  - if local_assigns[:label]
+    %h6.label= label
+
+  - if local_assigns[:photo]
+    = render article.images.try(:first), :style => photo
+
+  -# headline
+  - if local_assigns[:headline] || true
+    - haml_tag (local_assigns[:header_tag] || :h3), :class => 'headline' do
+      = link_to article.headline, article
+
+  -# byline
+  - if local_assigns[:author]
+    %p.author
+      By
+      = link_to article.author
+
+  -# summary
+  %p The state is requiring owners of elk facilities to get rid of all moose and white-tailed deer that live within their fences, afraid that the animals may spread chronic wasting disease.

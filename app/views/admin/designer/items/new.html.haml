@@ -1,0 +1,16 @@
+%h2== New Item for Column #{column_index + 1}
+
+- form_tag request.request_uri.split('?').first, :method => :get do
+  %p
+    Set the template
+    = select_tag :template_id, options_for_select(CanvasItemTemplate.find(:all, :order => 'name asc').collect { |t| [t.name, t.id] }, params[:template_id].to_i)
+    = submit_tag "Set Template"
+
+%br
+%br
+
+- if params[:template_id]
+  - form_for :item, @item, :url => admin_designer_canvas_column_items_url(canvas, column_index) do |form|
+    #assignments
+      = render :partial => 'template_assignments', :locals => { :template => CanvasItemTemplate.find(params[:template_id]) }
+    = form.submit

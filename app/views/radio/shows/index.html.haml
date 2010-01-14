@@ -1,0 +1,25 @@
+/ #TODO: Something awesome where when you click an anchor link, it flashes the header
+%ul#genres
+  - @genres.each do |genre|
+    %li.genre= link_to genre.name, :anchor => "radio_genre_#{genre.id}"
+#shows
+  - @genres.each do |genre|
+    %h3.embossed_header[genre]= genre.name
+    %table
+      - ((genre.shows.size / 3) + 1).times do |row|
+        %tr
+          - range = (row * 3)..((row * 3) + 2)
+          - genre.shows[range].each do |show|
+            %td
+              .show.clearfix
+                %h4= link_to show.name, show
+                = image_tag show.logo.url(:thumbnail)
+                .meta
+                  %p.date_and_time= show.human_times
+                  %dl
+                    - unless show.hosts.empty?
+                      %dt= show.hosts.size == 1 ? 'Host:' : 'Hosts:'
+                      %dd= link_to_hosts_for_show(show)
+                    %dt Genre:
+                    %dd= show.genre
+    %p.back_to_top= link_to "Back to Top", :anchor => :top

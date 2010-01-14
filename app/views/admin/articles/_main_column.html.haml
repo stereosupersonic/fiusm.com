@@ -1,0 +1,52 @@
+= f.text_field :headline, :label => false
+#article_edit_content
+  %ul.toolbar
+    %li= link_to "Editor",      '#article_editor'
+    %li= link_to "Headlines + Summary",   '#article_headlines_summary'
+    %li= link_to "Photos", '#article_photos'
+    %li= link_to "Attachments", '#article_attachments'
+  #article_editor.editor
+    - box "Editor" do
+      = f.text_area :raw_body, :rows => 20, :label => false
+      .footer
+        %p.word-count
+          - if false
+            Word count:
+            %span.count 0
+        - if false
+          %p.last-saved
+            Last edited by
+            = @article.saved_by.to_s(:short => true)
+            on
+            = @article.created_at.strftime("%B %d, %Y at %I:%M %p")
+  #article_photos
+    - box "Photos" do
+      - if @article.default_gallery
+        = render @article.default_gallery, :pagination => false
+      - else
+        %p
+          There are no photos for this article.
+          = link_to "Add Some!", admin_article_attachments_url(@article, :asset_type => 'Gallery'), :method => :post
+  #article_headlines_summary
+    - box "Headlines + Summary" do
+      - fields_for :headlines do |f|
+        = f.text_field :length_60,  :label => '60 chars'
+        = f.text_field :length_120, :label => '120 chars'
+        = f.text_field :length_180, :label => '180 chars'
+      = f.text_area :summary
+  #article_attachments
+    - box "Attachments" do
+      .toolbar
+        %li= link_to 'New Gallery', new_admin_article_attachment_url(@article, :asset_type => 'Gallery')
+      %table{:width => '100%'}
+        %thead
+          %tr
+            %th Type
+            %th Date Attached
+            %th
+        %tbody
+          - @article.attachments.each do |attachment|
+            %tr
+              %td= link_to attachment.type, [:admin, attachment]
+              %td= attachment.attached_at
+              %td= link_to 'Delete', [:admin, attachment], :method => :delete

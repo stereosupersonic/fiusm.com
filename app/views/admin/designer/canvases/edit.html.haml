@@ -1,0 +1,29 @@
+%h2== Editing Canvas: "#{@canvas.name}"
+
+:javascript
+  $(document).ready(function() {
+    $('#canvas_groups').tabs();
+  })
+
+- form_for @canvas, :url => admin_designer_canvas_url do |f|
+
+  - side_column do
+    - box "Actions" do
+      %p
+        = button_to "Publish Now"
+
+  - wide_column do
+    #canvas_groups
+      %ul.toolbar
+        - @canvas.template.assign_groups.each_with_index do |group, index|
+          %li= link_to group, "#group_#{index}", :class => 'button'
+      - @canvas.template.assign_groups.each_with_index do |group, index|
+        - box group, :id => "group_#{index}" do
+          - f.fields_for :assigns, @canvas.assigns, {} do |c|
+            - @canvas.template.assigns_for_group(group).each do |assign|
+              - label = assign.split(' - ')[1] || assign
+              - case @canvas.template.assign_type(assign)
+                - when :text
+                  = c.text_field assign, :label => label
+                - when :long
+                  = c.text_area assign, :label => label, :style => 'width: 400px; height: 100px'

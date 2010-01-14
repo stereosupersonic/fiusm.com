@@ -1,0 +1,108 @@
+.comments
+  :margin-top 1em
+  h3
+    :background url(../images/layout/breadcrumbs_bg.gif) repeat-x center center
+    :font-size 18px
+    :font-weight bold
+    :margin 0.75em 0
+    :padding 0 0.75em
+    a
+      :background #fff
+      :padding 0 0.5em
+      :color #29638b
+      :text-decoration none
+      &:hover
+        :text-decoration underline
+    span
+      :font-weight normal
+  .pagination-wrap
+    :margin-bottom 1em
+    :border-bottom 1px solid #ddd
+    :padding-bottom 0.5em
+  .comment
+    +clearfix
+    :margin-bottom 1.2em
+    .profile_pic
+      :float left
+      :padding-right 10px
+      :border-right 1px solid #cdcdcd
+      :margin-right 10px
+    .header, .body
+      :width 499px
+      :float right
+      p
+        :margin-bottom 0.5em
+    .body p
+      +serif
+      :margin-right 5em
+    .info
+      :float left
+      :margin-right 10px
+      :font-size 11px
+      .name a
+        :color #29638b
+        :font-weight bold
+        :font-size 13px
+        :text-decoration none
+      .commented, .created_at
+        :color #3b3b3b
+    .report
+      :float right
+      a
+        +underline-on-hover
+        :color #888
+        :font-size 9px
+
+  form
+    :border-bottom 3px solid #e2e2e2
+    :margin 0.5em 0
+    h5
+      :background #e2e2e2
+      :font-weight bold
+      :color #333
+      :padding 4px 10px
+      :margin-bottom 0.5em
+    .profile_pic, .body
+      :float left
+    .profile_pic
+      :width 100px
+      :margin 0 10px
+    .body
+      :width 450px
+    .status
+      :font-size 11px
+      input
+        :width auto
+      label
+        :background #0f0
+        :width 150px
+        :float left
+      
+    .submit input
+      :margin 0
+    label
+      :display none
+
+
+.rating
+  .score, a
+    :float left
+    :margin-right 5px
+  .score
+    .number
+      :margin 0px 3px
+      :color #444
+    .label
+      :display none
+  a
+    +replace-text(/images/icons/like_dislike.gif)
+    :height 14px
+    :width 14px
+    &.like
+      :background-position left bottom
+      &:hover
+        :background-position right bottom
+    &.dislike
+      :background-position left top
+      &:hover
+        :background-position right top

@@ -1,0 +1,6 @@
+%h2 Last songs played
+
+%ul
+  - @plays.each do |play|
+    %li== #{play.song.artist} - #{play.song.title}
+  = will_paginate @plays

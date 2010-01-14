@@ -1,0 +1,9 @@
+.card.clearfix
+  = image_tag RadioHost.find(:first).avatar.url(:small_card_icon)
+  %h4= link_to host.name
+  - if host.title
+    %h5= host.title
+  %p.shows
+    %strong Shows:
+    - host.shows.each do |show|
+      = link_to show.name

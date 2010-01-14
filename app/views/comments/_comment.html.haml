@@ -1,0 +1,24 @@
+%p.profile_pic
+  = fb_profile_pic comment.from, :size => :small, :width => 100
+.header
+  %p.info
+    %span.name
+      = fb_name comment.from, :shownetwork => true, :useyou => false, :ifcantsee => 'Name is private'
+    %span.commented
+      commented
+    %span.created_at
+      == #{time_ago_in_words(comment.created_at)} ago
+  %ul.tools
+    %li.rate
+      .rating
+        = link_to "Dislike?", {}, :class => 'dislike'
+        %span.score
+          %span.label
+            Score:
+          %span.number
+            0
+        = link_to "Like?", {}, :class => 'like'
+    %li.report
+      = link_to 'Inappropriate?'
+.body
+  = comment.body.to_html

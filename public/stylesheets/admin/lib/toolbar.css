@@ -1,0 +1,26 @@
+/* line 1, ../../../../app/stylesheets/admin/lib/toolbar.sass */
+.toolbar {
+  background: url(/images/admin/toolbar_bg.gif);
+  border: 1px solid #ddd;
+  height: 24px;
+  padding: 4px 4px;
+  margin-bottom: 5px;
+  list-style-type: none; }
+  /* line 8, ../../../../app/stylesheets/admin/lib/toolbar.sass */
+  .toolbar li a {
+    background: #f3f3f3 url("/images/admin/button-bg.gif");
+    border: 1px solid #ccc;
+    height: 24px;
+    line-height: 24px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 0 .75em;
+    font-size: 11px !important;
+    font-weight: bold;
+    float: left;
+    margin-right: 4px;
+    text-decoration: none; }
+    /* line 21, ../../../../app/stylesheets/admin/lib/toolbar.sass */
+    .toolbar li a:hover {
+      background: #e6e4e5;
+      border-color: #aaa; }

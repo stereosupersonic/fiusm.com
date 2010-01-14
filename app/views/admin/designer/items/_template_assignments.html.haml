@@ -1,0 +1,8 @@
+%p Fill in the following fields to fill the content
+%p{:style => 'font-weight: bold'}== Template: #{template.name}
+%div{:style => 'padding: 1em'}
+  - template.assignments.each do |assignment|
+    %p
+      = label_tag assignment.name
+      %br
+      = text_field_tag "item[assignments][#{assignment.name}]"

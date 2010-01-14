@@ -1,0 +1,11 @@
+- if logged_in?
+  %p.welcome
+    - name = fb_name(current_user.to_fb, :useyou => false, :firstnameonly => true, :linked => false)
+    == Hey, #{name}!
+  %p.tools
+    = fb_logout_link 'Log Out', root_url
+    = link_to "Admin", admin_root_url
+- else
+  %p
+    %fb:login-button{:v => '2', :size => 'normal', :onlogin => 'window.location.reload(true)'}
+      %fb-intl Connect with Facebook

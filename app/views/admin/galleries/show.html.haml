@@ -1,0 +1,9 @@
+%h2 Gallery
+
+- if @gallery.owned?
+  %p
+    Return to:
+    - @gallery.owners.each do |owner|
+      = link_to owner.class, [:admin, owner]
+
+= render @gallery

@@ -1,0 +1,122 @@
+html, body
+  +sans-serif
+  :background #092137 url(/images/layout/content_bg_shadow.gif)
+  :font-size 13px
+  :line-height 20px
+  :height 100%
+
+p
+  :margin-bottom 1em
+  
+hr
+  :background-color #ccc
+  :height 1px
+  :border none
+
+#parent-wrapper
+  :background url(/images/layout/content_bg_shadow.png) repeat-y center center
+  :height 100%
+
+#parent
+  :background url(/images/layout/background.gif) repeat-x
+  :min-height 100%
+  :position relative
+
+#header, #content-wrapper, #footer
+  +grid-system(12)
+  +clearfix
+
+#header
+  :padding-top 21px
+  :width 940px
+  h1 a
+    :background url(/images/layout/logo.png)
+    :height 20px
+    :width 117px
+    :margin-top 1px
+    :text-indent -100em
+    :display block
+    :overflow hidden
+    :float left
+
+#navigation
+  :margin-left 25px
+  :line-height 24px
+  :float left
+  li
+    :margin-right 16px
+    :float left
+  a
+    :color white
+    :text-decoration none
+    :font-weight bold
+    :text-shadow 1px 1px 0px #000
+    &:hover
+      :text-decoration underline
+
+#header .search
+  :float right
+  input
+    :background url(/images/layout/header_search_input_bg.png)
+    :border 0
+    :width 178px
+    :height 15px
+    :padding 5px
+    :outline none
+  p, input, button
+    :float left
+  label
+    :display none
+  button
+    :background url(/images/layout/header_search_go.png)
+    :width 31px
+    :height 25px
+    :border 0
+    :text-indent -100em
+    :margin-left 4px
+    :overflow hidden
+
+#content-wrapper
+  :background url(/images/layout/content_top_shadow.png) no-repeat
+  :padding-top 13px
+  :width 982px
+
+#content
+  :background url(/images/layout/content_bg_shadow.png) repeat-y center center
+  :padding 0px 21px 60px
+  :margin 0
+  :width auto
+  :min-height 390px
+
+#main
+  +grid(8)
+  +alpha
+
+ul#sidebar
+  +grid(4)
+  +omega
+  li
+    :margin-bottom 10px
+
+#main, #sidebar
+  :margin-top 10px
+
+#footer-wrapper
+  :height 60px
+  :width 100%
+  :position absolute
+  :bottom 0
+  #footer
+    :height 30px
+    :padding 15px 0px
+    :background #1d1d1d
+    :font-size 11px
+    :color #82aecc
+    :text-align center
+    a
+      :color #82aecc
+      &:hover
+        :color #b3d8f1
+    p
+      :margin 0
+      :line-height 140%

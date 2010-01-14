@@ -1,0 +1,19 @@
+%h2 Canvas Templates
+
+%p
+  = link_to "New Template", new_admin_designer_template_url
+
+%table.widefat
+  %thead
+    %tr
+      %th Name
+      %th Actions
+  %tbody
+    - collection.each do |template|
+      %tr
+        %td= template.name
+        %td= link_to 'Edit', edit_admin_designer_template_url(template)
+  %tfoot
+    %tr
+      %th Name
+      %th Actions

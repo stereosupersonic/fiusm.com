@@ -1,0 +1,20 @@
+/* line 1, ../../../app/stylesheets/elements/pagination.sass */
+.pagination-wrap {
+  color: #444;
+  text-align: right; }
+  /* line 4, ../../../app/stylesheets/elements/pagination.sass */
+  .pagination-wrap .pagination {
+    display: inline;
+    margin-left: 1.5em;
+    font-weight: bold; }
+    /* line 8, ../../../app/stylesheets/elements/pagination.sass */
+    .pagination-wrap .pagination a, .pagination-wrap .pagination span {
+      padding: 0 2px;
+      margin-right: 1px; }
+    /* line 11, ../../../app/stylesheets/elements/pagination.sass */
+    .pagination-wrap .pagination a {
+      border-bottom: 2px solid #b8d3e2;
+      text-decoration: none; }
+      /* line 14, ../../../app/stylesheets/elements/pagination.sass */
+      .pagination-wrap .pagination a:hover {
+        border-color: #888; }

@@ -1,0 +1,14 @@
+%h2 New Attachment
+
+= error_messages_for :attachment
+
+%dl
+  %dt Owner
+  %dd== #{owner.class}: #{owner.headline}
+
+- form_for :attachment, :url => admin_attachments_url do |f|
+  %p
+    = f.hidden_field :owner_type, :value => 'Article'
+    = f.hidden_field :owner_id, :value => params[:article_id]
+    = f.hidden_field :asset_type, :value => 'Gallery'
+    = f.submit "Attach"

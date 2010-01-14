@@ -1,0 +1,3 @@
+module Scaffold::EditHelper
+  
+end

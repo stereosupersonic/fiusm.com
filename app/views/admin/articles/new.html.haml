@@ -1,0 +1,8 @@
+%h2 New Article
+- box "Headline" do
+  - form_for @article, :url => admin_articles_path do |f|
+    %p Choose a temporary headline for your article.
+    = f.text_field :headline, :label => false
+    = f.submit
+    
+  

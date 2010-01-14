@@ -1,0 +1,58 @@
+h3
+  :margin-bottom 0
+  :border-left none !important
+  :border-right none !important
+  :border-bottom none
+
+#events
+  ul
+    :list-style-type none
+    :margin 0
+  :border-left 1px solid #0f0f0f
+  :border-right 1px solid #1c1c1c
+  :width 495px
+  :float left
+  li
+    :background #111
+    :border-top 1px solid #0f0f0f
+    :border-bottom 1px solid #1c1c1c
+    :padding 1em
+    :color #666
+    h4, p
+      :display inline
+    h4
+      :font-weight bold
+      :color #fff
+      :margin 0 5px 4px 0
+    p
+      :font-size 11px
+      :font-weight bold
+    a
+      :color #f0f0f0 !important
+      
+#days
+  :width 193px
+  :margin-top 1px
+  :float right
+  ul
+    :list-style-type none
+    :margin 0
+    a
+      :color #ccc !important
+      :font-weight bold
+      :background #141414
+      :display block
+      :padding 4px 24px
+      :margin-bottom 1px
+      &:hover
+        :text-decoration none
+        :background #333 url('/images/radio/day_select_bg.gif') no-repeat
+  p
+    :color #a4cf55
+    :font-size 11px
+    :padding 4px
+    :text-align center
+  li.active a
+    :background #7bb546 url('/images/radio/selected_day.gif')
+    :color #000 !important
+    :padding 4px 20px

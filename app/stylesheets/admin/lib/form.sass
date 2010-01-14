@@ -1,0 +1,79 @@
+form .field label
+  :font-size 13px
+  :display block
+
+hr
+  :border 0
+  :width 80%
+  :margin-top 10px
+  :color #ccc
+  :background-color #ccc
+  :height 1px
+
+input
+  :border 1px solid #dfdfdf
+  :padding 3px
+  :font-size 13px
+
+.box
+  .highlighted input
+    :color #fff
+    :font-weight bold
+    :background #2680aa
+    :border 1px solid #298cba
+    &:hover
+      :border-color #000
+  .field
+    :clear both 
+    input
+      :width 300px
+      :padding 3px
+      :margin 1px
+    &.submit input
+      :width auto
+    label
+      :float left
+      :font-weight bold
+      :line-height 25px
+      :margin-right 1em
+      :margin-left 1em
+      :width 100px
+    textarea
+      :width 500px
+      :height 100px
+      :border 1px solid #ddd
+  .check_box
+    :margin 0
+    label
+      :margin-left 0.5em
+      :line-height 22px !important
+      :font-weight normal
+      :font-size 11px
+      :width 80%
+    input
+      :height 19px
+      :width auto
+      :float left
+
+input[type="submit"], input[type="button"], .submit input, .button
+  :text-decoration none
+  :font-size 11px !important
+  :line-height 16px
+  :padding 2px 8px !important
+  :cursor pointer
+  :border-width 1px
+  :border-style solid
+  :-moz-border-radius 11px
+  :-khtml-border-radius 11px
+  :-webkit-border-radius 11px
+  :border-radius 11px
+  :-moz-box-sizing content-box
+  :-webkit-box-sizing content-box
+  :-khtml-box-sizing content-box
+  :box-sizing content-box
+  :background #f2f2f2 url("/images/admin/white-grad.png") repeat-x scroll left top
+  :border-color #DCDCDC
+  :color #464646
+  &:hover
+    :color #d54e21
+    :border-color #535353

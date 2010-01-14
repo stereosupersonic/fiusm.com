@@ -1,0 +1,22 @@
+%h2 Editing Image
+
+- form_for @image, :url => [:admin, @image] do |f|
+
+  - side_column do
+    - box "Actions" do
+      %p= f.submit
+      - if @image.gallery
+        - if @image.previous_in_gallery
+          %p= link_to "&laquo; Previous in Gallery", admin_image_url(@image.previous_in_gallery)
+        - if @image.next_in_gallery
+          %p= link_to "&raquo; Next in Gallery", admin_image_url(@image.next_in_gallery)
+
+  - wide_column do
+    %p
+      - link_to @image.file.url do
+        = image_tag(@image.file.url(:preview), :height => 250)
+    - box "Information" do
+      = f.text_field :title
+      = f.text_field :credit
+      = f.text_area  :caption
+

@@ -1,0 +1,93 @@
+/* line 10, ../../../app/stylesheets/pages/home.sass */
+#section_stories .left, #section_stories .right {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 300px; }
+/* line 12, ../../../app/stylesheets/pages/home.sass */
+#section_stories .left {
+  clear: left;
+  margin-left: 0; }
+/* line 15, ../../../app/stylesheets/pages/home.sass */
+#section_stories .right {
+  margin-right: 0; }
+/* line 19, ../../../app/stylesheets/pages/home.sass */
+#section_stories ul {
+  padding-bottom: 20px; }
+/* line 21, ../../../app/stylesheets/pages/home.sass */
+#section_stories li {
+  padding: 10px 8px 0px; }
+/* line 23, ../../../app/stylesheets/pages/home.sass */
+#section_stories h4 {
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", serif;
+  margin-bottom: 3px;
+  line-height: 18px; }
+  /* line 28, ../../../app/stylesheets/pages/home.sass */
+  #section_stories h4 a {
+    text-decoration: none; }
+    /* line 30, ../../../app/stylesheets/pages/home.sass */
+    #section_stories h4 a:hover {
+      text-decoration: underline; }
+/* line 32, ../../../app/stylesheets/pages/home.sass */
+#section_stories p {
+  font-size: 11px;
+  line-height: 15px;
+  margin: 0; }
+
+/* line 37, ../../../app/stylesheets/pages/home.sass */
+li.other_medias {
+  background: url(../../images/home/other_medias_bg.jpg);
+  font-size: 11px;
+  height: 89px; }
+  /* line 41, ../../../app/stylesheets/pages/home.sass */
+  li.other_medias .content {
+    background: #000;
+    height: 32px; }
+  /* line 44, ../../../app/stylesheets/pages/home.sass */
+  li.other_medias > div {
+    margin: 5px 12px; }
+  /* line 46, ../../../app/stylesheets/pages/home.sass */
+  li.other_medias p {
+    line-height: 15px; }
+  /* line 48, ../../../app/stylesheets/pages/home.sass */
+  li.other_medias a {
+    text-decoration: none; }
+    /* line 9, ../../../app/stylesheets/lib/common.sass */
+    li.other_medias a:hover {
+      text-decoration: underline; }
+  /* line 50, ../../../app/stylesheets/pages/home.sass */
+  li.other_medias .radiate_fm {
+    width: 172px;
+    float: left;
+    position: relative; }
+    /* line 54, ../../../app/stylesheets/pages/home.sass */
+    li.other_medias .radiate_fm .listen_live {
+      top: 3px;
+      right: 0;
+      position: absolute; }
+      /* line 58, ../../../app/stylesheets/pages/home.sass */
+      li.other_medias .radiate_fm .listen_live a {
+        color: #fff; }
+    /* line 60, ../../../app/stylesheets/pages/home.sass */
+    li.other_medias .radiate_fm .content {
+      color: #fff;
+      padding: 10px; }
+  /* line 63, ../../../app/stylesheets/pages/home.sass */
+  li.other_medias .the_beacon {
+    width: 79px;
+    float: left; }
+    /* line 66, ../../../app/stylesheets/pages/home.sass */
+    li.other_medias .the_beacon h4, li.other_medias .the_beacon a {
+      color: #000; }
+  /* line 68, ../../../app/stylesheets/pages/home.sass */
+  li.other_medias h4 {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase; }
+
+/* line 74, ../../../app/stylesheets/pages/home.sass */
+.popular ul span {
+  font-weight: bold;
+  color: #666; }

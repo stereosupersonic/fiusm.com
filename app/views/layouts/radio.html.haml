@@ -1,0 +1,48 @@
+- require_stylesheet 'pages/radio/home'
+- inside_layout 'application' do
+  #main
+    .radio-header
+      - box "What's On", :class => 'whats-on' do
+        .show.with-song
+          %h4 B.O.O.B.S
+          %p.dj with Nivv Hasselhoff
+          %p.avatar
+            = image_tag 'http://www.google.com/intl/en_ALL/images/logo.gif', :width => 74, :height => 74
+          .song
+            %p.artwork
+              = image_tag 'http://www.google.com/intl/en_ALL/images/logo.gif', :width => 36, :height => 36
+            %p
+              %span.now-playing Now Playing:
+              %span.title Fake Tales of San Francisco
+              %span.by by
+              %span.artist Arctic Monkeys
+      .tunein
+        %h3 Tune In
+        .content
+          %p.choose Choose your bitrate
+          %ul
+            %li.opt1= link_to "56 kbps"
+            %li.opt2= link_to "128 kbps"
+            %li.opt3= link_to "192 kbps"
+          %p.freq
+            or go old school:
+            %strong 95.3 FM University Park
+            = link_to "change?"
+    .radio-content
+      = yield
+  %ul#sidebar
+    %li.logo
+      %h2= link_to 'Radiate FM', radio_root_url
+    %li.navigation
+      %ul
+        %li.active= link_to 'Home', radio_root_url
+        %li= link_to 'Shows', radio_shows_url
+        %li= link_to 'Schedule', radio_schedule_url
+        %li= link_to 'Promotions', radio_promotions_url
+        %li= link_to 'Staff', radio_staff_index_url
+        %li= link_to 'Signals', radio_signals_url
+        %li= link_to 'About', radio_about_url
+    %li.ad
+      = image_tag 'http://www.iab.net/media/image/160x600.gif'
+  .body
+

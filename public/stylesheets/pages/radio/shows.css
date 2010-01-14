@@ -1,0 +1,112 @@
+/* line 1, ../../../../app/stylesheets/pages/radio/shows.sass */
+#genres {
+  list-style-type: none;
+  font-weight: bold;
+  padding: 8px 0;
+  margin: 0;
+  text-align: center;
+  border-top: 3px solid #333; }
+  /* line 8, ../../../../app/stylesheets/pages/radio/shows.sass */
+  #genres li {
+    padding: 0 0.5em;
+    display: inline; }
+
+/* line 13, ../../../../app/stylesheets/pages/radio/shows.sass */
+#shows table {
+  margin-bottom: 0.3em; }
+/* line 15, ../../../../app/stylesheets/pages/radio/shows.sass */
+#shows td {
+  width: 222px;
+  padding: 0px; }
+/* line 18, ../../../../app/stylesheets/pages/radio/shows.sass */
+#shows .show {
+  margin: 0px 5px 5px;
+  background: #0e0e0e;
+  border: 2px solid #1c1c1c;
+  padding: 10px;
+  color: #aaa; }
+  /* line 24, ../../../../app/stylesheets/pages/radio/shows.sass */
+  #shows .show img {
+    width: 56px;
+    height: 56px;
+    float: left;
+    margin-right: 12px;
+    border-top: 1px solid #111;
+    border-left: 1px solid #111;
+    border-right: 1px solid #222;
+    border-bottom: 1px solid #222; }
+  /* line 33, ../../../../app/stylesheets/pages/radio/shows.sass */
+  #shows .show .meta {
+    width: 128px;
+    float: left; }
+  /* line 36, ../../../../app/stylesheets/pages/radio/shows.sass */
+  #shows .show h4 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    height: auto; }
+  /* line 40, ../../../../app/stylesheets/pages/radio/shows.sass */
+  #shows .show a {
+    color: #ccc; }
+  /* line 42, ../../../../app/stylesheets/pages/radio/shows.sass */
+  #shows .show p {
+    font-size: 11px;
+    margin-bottom: 1px; }
+  /* line 45, ../../../../app/stylesheets/pages/radio/shows.sass */
+  #shows .show dl {
+    margin: 0; }
+  /* line 47, ../../../../app/stylesheets/pages/radio/shows.sass */
+  #shows .show dt {
+    float: left;
+    margin-right: 4px; }
+  /* line 50, ../../../../app/stylesheets/pages/radio/shows.sass */
+  #shows .show dd {
+    margin: 0; }
+/* line 52, ../../../../app/stylesheets/pages/radio/shows.sass */
+#shows .back_to_top {
+  margin: 0 1em 1em;
+  text-align: right;
+  font-size: 11px; }
+  /* line 56, ../../../../app/stylesheets/pages/radio/shows.sass */
+  #shows .back_to_top a {
+    color: #444; }
+
+/* line 59, ../../../../app/stylesheets/pages/radio/shows.sass */
+.profile-header {
+  margin-bottom: 10px; }
+  /* line 61, ../../../../app/stylesheets/pages/radio/shows.sass */
+  .profile-header h3, .profile-header h4 {
+    margin: 0;
+    font-weight: bold; }
+  /* line 64, ../../../../app/stylesheets/pages/radio/shows.sass */
+  .profile-header h3 {
+    color: #8bc53f;
+    font-size: 2.5em; }
+  /* line 68, ../../../../app/stylesheets/pages/radio/shows.sass */
+  .profile-header h4 {
+    color: #aaa;
+    font-size: 1.6em; }
+
+/* line 72, ../../../../app/stylesheets/pages/radio/shows.sass */
+.profile-side {
+  width: 200px;
+  margin-left: 10px;
+  float: left; }
+
+/* line 77, ../../../../app/stylesheets/pages/radio/shows.sass */
+.profile-body {
+  color: #fff;
+  width: 470px;
+  float: right; }
+  /* line 81, ../../../../app/stylesheets/pages/radio/shows.sass */
+  .profile-body h5 {
+    color: #ddd;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.5em; }
+  /* line 87, ../../../../app/stylesheets/pages/radio/shows.sass */
+  .profile-body .shows {
+    margin-top: 0;
+    margin-bottom: 0.5em !important;
+    margin: 0;
+    list-style-type: none; }

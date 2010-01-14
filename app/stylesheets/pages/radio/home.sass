@@ -1,0 +1,264 @@
+@import lib/common
+
+.content-box
+  h3
+    :color #fff
+    :font-size 1em
+    :font-weight bold
+    :text-transform uppercase
+
+#parent-wrapper, #content
+  :background-image url(/images/layout/content_bg_shadow_for_radio.png)
+
+#footer
+  :border-top 1px solid #fff
+
+#content
+  #sidebar
+    +grid(3)
+    +alpha
+    .logo h2
+      +replace-text("/images/radio/logo.gif")
+      :margin 0px 10px 15px
+      :width 200px
+      :height 109px
+      a
+        :width 100%
+        :height 100%
+        :display block
+    .navigation ul
+      :list-style-type none
+      :margin 0 0 14px 0
+      li
+        :margin-bottom 1px
+        a
+          :color #fff
+          :height 27px
+          :line-height 27px
+          :background url("/images/radio/navitem_bg.gif")
+          :display block
+          :padding 0px 10px
+          :font-weight bold
+          :text-decoration none
+          &:hover
+            :background url("/images/radio/navitem_bg_hover.gif")
+        &.active
+          a
+            :background url("/images/radio/navitem_bg_active.gif")
+            :color #000
+    .ad
+      :text-align center
+      img
+        :border 1px solid #333
+  #main
+    +grid(9)
+    +omega
+    :float right
+    .radio-header
+      h3, span
+        :background none
+      h3
+        :text-transform uppercase
+        :padding 0
+      .whatson, .tunein
+        .content
+          :position relative
+          :margin 11px 3px 0px
+          :height 83px
+      .whats-on
+        :background url("/images/radio/whatson_bg.gif") bottom left no-repeat
+        :width 400px
+        :height 108px
+        :margin-right 14px
+        :float left
+        .show
+          p img
+            :margin 0
+          &.with-song
+            h4
+              :background url("/images/radio/SAMPLE_show_name.gif")
+              :width 304px
+              :height 27px
+              :text-indent -100em
+              :overflow hidden
+              :position absolute
+              :top 5px
+              :left 86px
+            p.dj
+              :display none
+            p.avatar
+              :position absolute
+              :border 1px solid #3e3e3e
+              :top 4px
+              :left 4px
+            .song
+              :color #fff
+              :position absolute
+              :bottom 7px
+              :left 86px
+              :width 300px
+              :height 36px
+              .artwork
+                :float left
+                :margin-right 8px
+              .now-playing
+                :display none
+              .title, .artist, .by
+                :line-height 100%
+                :display block
+              .title
+                :margin-top 2px
+                :font-weight bold
+                :font-size 16px
+                :margin-bottom 3px
+              .artist, .by
+                :font-weight bold
+                :font-size 11px
+              .by
+                :margin-right 2px
+                :float left
+              .artist
+                :text-transform uppercase
+      .tunein
+        :background url("/images/radio/tunein_bg.gif") bottom left no-repeat
+        :padding 0px 5px
+        :width 272px
+        :height 108px
+        :float left
+        .content
+          p.choose
+            :line-height 26px
+            :height 26px
+            :margin 0px 8px 1px
+            :font-weight bold
+            :font-size 12px
+            :color #1c1c1c
+          ul
+            :list-style-type none
+            :margin 8px 8px 2px
+            :height 26px
+            li
+              :margin-right 15px
+              :float left
+              a
+                :background url("/images/radio/tunein_freqs.gif")
+                :height 20px
+                :width 65px
+                :display block
+                :text-indent -100em
+                :overflow hidden
+              &.opt1 a
+                :width 53px
+              &.opt1 a:hover
+                :background-position -65px 0px
+              &.opt2 a
+                :background-position 0px -20px
+              &.opt2 a:hover
+                :background-position -65px -20px
+              &.opt3 a
+                :background-position 0px -40px
+              &.opt3 a:hover
+                :background-position -65px -40px
+          p.freq
+            :height 21px
+            :line-height 20px
+            :font-size 11px
+            :text-align center
+  .radio-content
+    :color #fff
+    :margin-top 1em
+    a
+      :color #a4cf55
+    .featured
+      :background url("/images/radio/featured_bg.gif")
+      :height 226px
+      :padding 21px
+      :margin-bottom 1em
+      h2
+        :font-weight bold
+        :font-size 2em
+        :margin-bottom 0.5em
+      img
+        :float left
+        :margin-right 1.5em
+        :width 300px
+        :height 225px
+      .more
+        :font-size 11px
+
+.body-content
+  .schedule-track
+    :background #1c1c1c
+    :border 3px solid #404040
+    :padding 13px
+    :overflow hidden
+    :position relative
+    a.full-schedule
+      :position absolute
+      :top 12px
+      :left 105px
+      :font-size 0.8em
+    .cover
+      :background url('/images/radio/todays_schedule_end_gradient.png') top left
+      :width 110px
+      :height 62px
+      :position absolute
+      :top 20px
+      :right 0px
+      :z-index 500
+    ul
+      :list-style-type none
+      :margin 0
+      :width 120%
+      :position relative
+    li.current
+      :color #000
+      :border none
+      :width 155px
+      :height 50px
+      :margin 0
+      :background #9dcd53
+      :font-size 1.2em
+      .time
+        :top 53px
+      a
+        :color #000  !important
+    li
+      :display table
+      :line-height 1.15em
+      :border 1px solid #464646
+      :border-right none
+      :width 137px
+      :height 42px
+      :float left
+      :text-align center
+      :margin 3px 0px
+      :position relative
+      .title
+        :color #fff !important
+        :font-weight bold
+        :height 42px
+        &.long
+          :font-size 0.75em
+      .time
+        :font-size 0.75em
+        :width 137px
+        :color #888
+        :top 0px
+        :margin 0
+        :margin-top -13px
+        :line-height 100%
+        :position absolute
+
+.embossed_header
+  :border-top 1px solid #0f0f0f
+  :border-left 1px solid #0f0f0f
+  :border-bottom 1px solid #222
+  :border-right 1px solid #222
+  :text-shadow 0 1px 0 #a0e85a
+  :color #050505
+  :background #87c64d url('/images/radio/show_header_bg.gif')
+  :font-size 1em
+  :padding 7px 13px
+  :text-transform uppercase
+  :font-weight bold

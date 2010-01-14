@@ -1,0 +1,15 @@
+%h3.embossed_header Shows
+
+.profile-side
+  = image_tag @show.logo.url, :width => 200
+.profile-body
+  .profile-header
+    %h3= @show.name
+    %h4== with #{link_to_hosts_for_show(@show)}
+  %h5 Genre
+  %p= @show.long_genre
+  %h5 Times
+  %p= @show.human_times
+  %h5 Description
+  %p= @show.description
+  

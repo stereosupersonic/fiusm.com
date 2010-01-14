@@ -1,0 +1,16 @@
+%h3.embossed_header Staff
+
+.profile-side
+  = image_tag @host.avatar.url(:bio_page), :width => 200
+.profile-body
+  .profile-header
+    %h3= @host.name
+    - unless @host.title.blank?
+      %h4= @host.title
+  %h5 Shows
+  - unless @host.shows.empty?
+    %ul.shows
+      - @host.shows.each do |show|
+        %li= link_to show.name, show
+  %h5 Bio
+  %p= @host.bio

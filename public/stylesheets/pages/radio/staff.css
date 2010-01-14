@@ -1,0 +1,89 @@
+/* line 1, ../../../../app/stylesheets/pages/radio/staff.sass */
+.card {
+  background: #090909;
+  border: 2px solid #222;
+  margin-bottom: 1em;
+  padding: 4px; }
+  /* line 6, ../../../../app/stylesheets/pages/radio/staff.sass */
+  .card h4, .card h5 {
+    margin: 0; }
+  /* line 8, ../../../../app/stylesheets/pages/radio/staff.sass */
+  .card h4 {
+    font-weight: bold;
+    font-size: 1.6em; }
+  /* line 11, ../../../../app/stylesheets/pages/radio/staff.sass */
+  .card h5 {
+    color: #aaa; }
+  /* line 13, ../../../../app/stylesheets/pages/radio/staff.sass */
+  .card img {
+    margin: 0 8px 0 0;
+    float: left; }
+  /* line 16, ../../../../app/stylesheets/pages/radio/staff.sass */
+  .card .shows {
+    margin: 0; }
+    /* line 18, ../../../../app/stylesheets/pages/radio/staff.sass */
+    .card .shows a {
+      color: #fff !important; }
+
+/* line 22, ../../../../app/stylesheets/pages/radio/staff.sass */
+.directors .card {
+  margin-right: 10px;
+  width: 326px;
+  float: left; }
+
+/* line 28, ../../../../app/stylesheets/pages/radio/staff.sass */
+.djs .card {
+  margin-right: 10px;
+  width: 210px;
+  float: left; }
+  /* line 32, ../../../../app/stylesheets/pages/radio/staff.sass */
+  .djs .card h4 {
+    font-size: 1.2em; }
+  /* line 34, ../../../../app/stylesheets/pages/radio/staff.sass */
+  .djs .card .shows, .djs .card h5 {
+    font-size: 0.9em; }
+
+/* line 37, ../../../../app/stylesheets/pages/radio/staff.sass */
+.profile-header {
+  margin-bottom: 10px; }
+  /* line 39, ../../../../app/stylesheets/pages/radio/staff.sass */
+  .profile-header h3, .profile-header h4 {
+    margin: 0;
+    font-weight: bold; }
+  /* line 42, ../../../../app/stylesheets/pages/radio/staff.sass */
+  .profile-header h3 {
+    color: #8bc53f;
+    font-size: 2.5em; }
+  /* line 46, ../../../../app/stylesheets/pages/radio/staff.sass */
+  .profile-header h4 {
+    color: #aaa;
+    font-size: 1.6em; }
+
+/* line 50, ../../../../app/stylesheets/pages/radio/staff.sass */
+.profile-side {
+  width: 200px;
+  margin-left: 10px;
+  float: left; }
+
+/* line 55, ../../../../app/stylesheets/pages/radio/staff.sass */
+.profile-body {
+  color: #fff;
+  width: 470px;
+  float: right; }
+  /* line 59, ../../../../app/stylesheets/pages/radio/staff.sass */
+  .profile-body h5 {
+    color: #ddd;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.5em; }
+  /* line 65, ../../../../app/stylesheets/pages/radio/staff.sass */
+  .profile-body .shows {
+    margin-top: 0;
+    margin-bottom: 0.5em !important;
+    margin: 0;
+    list-style-type: none; }
+
+/* line 71, ../../../../app/stylesheets/pages/radio/staff.sass */
+.embossed_header {
+  margin-bottom: 1em; }

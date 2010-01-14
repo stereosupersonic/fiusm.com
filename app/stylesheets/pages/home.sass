@@ -1,0 +1,76 @@
+//
+// Article view page
+//   FIUSM.com v2.0
+//   (C) 2009 Rick Martinez
+//
+
+@import lib/common
+
+#section_stories
+  .left, .right
+    +grid(4)
+  .left
+    :clear left
+    +alpha
+  .right
+    +omega
+
+  // lists
+  ul
+    :padding-bottom 20px
+  li
+    :padding 10px 8px 0px
+  h4
+    :font-size 14px
+    :font-family Georgia, "Times New Roman", serif
+    :margin-bottom 3px
+    :line-height 18px
+    a
+      :text-decoration none
+      &:hover
+        :text-decoration underline
+  p
+    :font-size 11px
+    :line-height 15px
+    :margin 0
+
+li.other_medias
+  :background url(../../images/home/other_medias_bg.jpg)
+  :font-size 11px
+  :height 89px
+  .content
+    :background #000
+    :height 32px
+  > div
+    :margin 5px 12px
+  p
+    :line-height 15px
+  a
+    +underline-on-hover
+  .radiate_fm
+    :width 172px
+    :float left
+    :position relative
+    .listen_live
+      :top 3px
+      :right 0
+      :position absolute
+      a
+        :color #fff
+    .content
+      :color #fff
+      :padding 10px
+  .the_beacon
+    :width 79px
+    :float left
+    h4, a
+      :color #000
+  h4
+    :color #fff
+    :font-weight bold
+    :text-transform uppercase
+
+.popular ul
+  span
+    :font-weight bold
+    :color #666

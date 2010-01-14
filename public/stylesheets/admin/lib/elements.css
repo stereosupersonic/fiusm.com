@@ -1,0 +1,95 @@
+/* line 2, ../../../../app/stylesheets/admin/lib/elements.sass */
+.tablenav input[type="submit"], .tablenav input[type="button"], .tablenav .submit input, .tablenav .button {
+  border-color: #cfe1ef; }
+  /* line 4, ../../../../app/stylesheets/admin/lib/elements.sass */
+  .tablenav input[type="submit"]:hover, .tablenav input[type="button"]:hover, .tablenav .submit input:hover, .tablenav .button:hover {
+    color: #000;
+    border-color: #328ab2; }
+
+/* line 8, ../../../../app/stylesheets/admin/lib/elements.sass */
+.actions.with_buttons input {
+  float: left; }
+
+/* line 11, ../../../../app/stylesheets/admin/lib/elements.sass */
+.pagination-wrap {
+  padding: 1em 2em; }
+
+/* line 14, ../../../../app/stylesheets/admin/lib/elements.sass */
+.gallery {
+  background: #fff; }
+  /* line 16, ../../../../app/stylesheets/admin/lib/elements.sass */
+  .gallery table {
+    width: 100%;
+    border: none !important; }
+    /* line 19, ../../../../app/stylesheets/admin/lib/elements.sass */
+    .gallery table td {
+      text-align: center;
+      padding: 5px 0; }
+
+/* line 24, ../../../../app/stylesheets/admin/lib/elements.sass */
+#content .errorExplanation {
+  border: 1px solid #ddd;
+  margin-bottom: 1em;
+  background: #fff; }
+  /* line 28, ../../../../app/stylesheets/admin/lib/elements.sass */
+  #content .errorExplanation h2 {
+    background: #900;
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 5px; }
+  /* line 35, ../../../../app/stylesheets/admin/lib/elements.sass */
+  #content .errorExplanation p {
+    margin: 0 13px 4px; }
+  /* line 37, ../../../../app/stylesheets/admin/lib/elements.sass */
+  #content .errorExplanation ul {
+    margin: 0 33px 8px; }
+
+/* line 40, ../../../../app/stylesheets/admin/lib/elements.sass */
+.article_body {
+  background: #fff;
+  border: 3px solid #ccc;
+  padding: 0 1.5em;
+  font-size: 13px; }
+  /* line 45, ../../../../app/stylesheets/admin/lib/elements.sass */
+  .article_body h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-style: normal !important;
+    font-size: 17px !important;
+    font-weight: bold; }
+  /* line 50, ../../../../app/stylesheets/admin/lib/elements.sass */
+  .article_body .diff-html-added {
+    background-color: #ccffcc;
+    border-left: 4px solid darkgreen; }
+  /* line 53, ../../../../app/stylesheets/admin/lib/elements.sass */
+  .article_body .diff-html-removed {
+    background-color: #fdc6c6;
+    border-left: 4px solid darkred; }
+
+/* line 57, ../../../../app/stylesheets/admin/lib/elements.sass */
+.toolbar {
+  background: url(/images/admin/toolbar_bg.gif);
+  border: 1px solid #ddd;
+  height: 24px;
+  padding: 4px 4px;
+  list-style-type: none; }
+  /* line 63, ../../../../app/stylesheets/admin/lib/elements.sass */
+  .toolbar li a {
+    background: #f3f3f3 url(/images/admin/button-bg.gif);
+    border: 1px solid #ccc;
+    height: 24px;
+    line-height: 24px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 0 .75em;
+    font-size: 11px !important;
+    font-weight: bold;
+    float: left;
+    margin-right: 4px;
+    text-decoration: none;
+    text-shadow: 0px 1px 1px #fff; }
+    /* line 77, ../../../../app/stylesheets/admin/lib/elements.sass */
+    .toolbar li a:hover {
+      background: #e6e4e5;
+      border-color: #aaa; }

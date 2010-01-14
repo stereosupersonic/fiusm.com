@@ -1,0 +1,834 @@
+Section: News
+Headline: Fire safety code requires pit balcony enclosure
+Author: Ana Sanchez
+&nbsp;
+At the heart of the Graham Center, an open area known to students as the pit was found enclosed during Summer A with dry walls covering the area on the first and second floors. An unavoidable part of campus life, numerous music and interactive events take place at the pit are  currently put on hold. The enclosure of the pit is due to fire safety violation codes, which where not implemented during the construction of GC. In case of a fire on the first floor, the barriers under construction will insure the protection of people on the second and third floors by eliminating the possibility of smoke rising from below. The pit is scheduled to re-open mid-August.
+"This has been a fire marshal's criticism which we have been contending with for several years, [we have] the ability to get the work done now, " said James R. Wassenaar, executive director of Student Affairs Operations and Auxiliary Services.
+Another option besides enclosing the top part of the pit was installing a ventilation system on the second floor. However, price difference was significant. While the cost of the enclosure was $30 to $45,000, a smoke evacuation system would cost an estimated $1.2 million. The Student Government Association was unaware of the reasoning behind the construction when it began. 
+"Like many students, we did not know what was going on until we set a meeting with President Modesto Maidique," said Christine Denton, SGA vice president. "We saw construction starting without notification of the students and notification of us, so we asked to stop [construction] until we were completely informed and we did not want it to continue until we knew all the solutions possible we could work with." 
+SGA was concerned with the first floor of the pit being closed off, but the closure is for the second floor in the balcony area. The closure, seen now on the first floor of GC, is a temporary barrier for the construction to take place.
+ "We discussed the bottom part of the balcony where the stairs are [so that it may] remain [and] people can still stand there. The way they are going to close off the smoke is that [they] are going to have doors at the top of the stairs that close with magnets and the magnets will release in case of a fire," said Alex Prado, SGA president.  
+Instead of people being able to lean over the balcony, they will have to look through the glass covering the Pit to view the first floor.
+"Supposedly, it won't take away from the noise, so you can still hear what's going on in the pit, it's just the aspect of leaning over the balcony that won't be there anymore. It was the best we could do," Prado said.
+Funding for the construction is coming out of Capital Improvement Funds, a state fund provided to universities for projects such as fire safety improvements.
+ "We wanted to make sure that it was the right decision for students and they apologized for not informing SGA as much as they should have, but they did include us in the decision making process," Denton said.
+
+******************************************
+******************************************
+
+Section: News
+Headline: Fire safety code requires pit balcony enclosure
+Author: Ana Sanchez
+&nbsp;
+At the heart of the Graham Center, an open area known to students as the pit was found enclosed during Summer A with dry walls covering the area on the first and second floors. An unavoidable part of campus life, numerous music and interactive events take place at the pit are  currently put on hold. The enclosure of the pit is due to fire safety violation codes, which where not implemented during the construction of GC. In case of a fire on the first floor, the barriers under construction will insure the protection of people on the second and third floors by eliminating the possibility of smoke rising from below. The pit is scheduled to re-open mid-August.
+"This has been a fire marshal's criticism which we have been contending with for several years, [we have] the ability to get the work done now, " said James R. Wassenaar, executive director of Student Affairs Operations and Auxiliary Services.
+Another option besides enclosing the top part of the pit was installing a ventilation system on the second floor. However, price difference was significant. While the cost of the enclosure was $30 to $45,000, a smoke evacuation system would cost an estimated $1.2 million. The Student Government Association was unaware of the reasoning behind the construction when it began. 
+"Like many students, we did not know what was going on until we set a meeting with President Modesto Maidique," said Christine Denton, SGA vice president. "We saw construction starting without notification of the students and notification of us, so we asked to stop [construction] until we were completely informed and we did not want it to continue until we knew all the solutions possible we could work with." 
+SGA was concerned with the first floor of the pit being closed off, but the closure is for the second floor in the balcony area. The closure, seen now on the first floor of GC, is a temporary barrier for the construction to take place.
+ "We discussed the bottom part of the balcony where the stairs are [so that it may] remain [and] people can still stand there. The way they are going to close off the smoke is that [they] are going to have doors at the top of the stairs that close with magnets and the magnets will release in case of a fire," said Alex Prado, SGA president.  
+Instead of people being able to lean over the balcony, they will have to look through the glass covering the Pit to view the first floor.
+"Supposedly, it won't take away from the noise, so you can still hear what's going on in the pit, it's just the aspect of leaning over the balcony that won't be there anymore. It was the best we could do," Prado said.
+Funding for the construction is coming out of Capital Improvement Funds, a state fund provided to universities for projects such as fire safety improvements.
+ "We wanted to make sure that it was the right decision for students and they apologized for not informing SGA as much as they should have, but they did include us in the decision making process," Denton said.
+
+******************************************
+******************************************
+
+Section: News
+Headline: Problem solved:
+Subheadline: Professor creates program to halt hackers
+Author: Betsy Martinez / News Director
+&nbsp;
+After working eight years to solve a math problem that has been overwhelming mathematicians since the early 1800s, FIU professor Frantz Olivier now sighs with relief knowing he has accomplished just that.
+For years, mathematicians have been unable to factor large numbers. Olivier, who teaches Business Calculus and College Algebra at the Biscayne Bay Campus, has developed a computer program utilizing a mathematical formula that is able to factor numbers over 2,000 digits long.
+"That's about five pages," Olivier said.
+According to Olivier, the relevance of solving this ancient math problem in modern times is to revolutionize the banking industry by lowering fraud and increasing the number of customers.
+In theory, the computer program he developed will send an encrypted message from the bank to the customer via e-mail. The original message from the bank will be a series of numbers and the message the customer receives will be the factors of those numbers.
+The program, which remains unnamed, will serve as the base program for the process. Olivier hopes to develop other programs in the future.
+"The reason you can do this is because of pictography. You can encode words with numbers, and if you can factor the numbers you can actually decompose the message," said Olivier, a graduate of Columbia University.
+According to Olivier, the program used by banks today sends the customer the original series of numbers, thus making it easier for hackers to tap into the system.
+"With the current program, there's a potential to access your information by tapping into your information," he said.
+Olivier appeared at the Hawaii International Conference held September 13, 2004 in front of 20 mathematicians to present his math solution during a 30-minute paper session and a 90-minute workshop.
+The "Purge Equation," which Olivier created, is the main process for finding factors because, true to its name, it purges all of the wrong solutions and signals out the right one. The program also uses the quadratic formula and a number of mathematical proofs.
+"Hackers go through the backdoor and try to access different accounts by factoring. They don't know this method of factoring so they do trial and error until something works," Olivier said.
+Math students will also benefit from this program because once it is available for mass consumption, it can be installed into a computer or graphing calculator and used to find factors of large numbers.
+"He's a great teacher, and he's done a great job," said Robert Holmes, a junior majoring in business administration, who is currently taking Calculus for Business with professor Olivier.
+Olivier is in the process of writing a grant that will aid FIU students with scholarships and facilitate future math research projects.
+"Mathematics is not a forgiving field. You have to practice. Don't let past experiences stop you from studying the field you like," said Olivier.
+
+******************************************
+******************************************
+
+Section: Opinion
+Headline: Former RA, peer advisor reflects
+Author: Felicidad Garcia / Staff Writer
+&nbsp;
+We've all grown up somewhere. When you really think about it, where did you grow up? 
+
+Where did you experience that harrowing moment when you actually related to something your father did? How about when your mother's style of handwriting suddenly snuck its way into your own penmanship 45 minutes into an essay exam? 
+
+Oh, and when you catch yourself giving a friend the same advice you resented your grandmother giving you all your life - that's the worst. 
+
+For me, growing up happened at FIU. 
+
+It happened to me in stages and in flashes. I talked to my roommate in Wal-Mart and inquired out loud, "Do you think I should get the sponge mop or the rag mop?" Suddenly, she looked up from the toilet wands and said, "Wha'd you say?" And I thought, "When did we get so boring?"
+
+ I mean, look at me, buying mops and putting a rice cooker on my Christmas list. Who am I?
+
+At FIU, my college experience got a late start and an early finish. I commuted my freshman year and then moved on campus the following fall. I wrote an article for The Beacon titled "Five Minutes is a World Away: Life on Campus," that explained my transition and how I felt that greatness would soon befall me. 
+
+I was so fantastically terrified about doing everything by myself that I felt tremendously accomplished by doing even the simplest of tasks- like changing toilet paper rolls in my new bathroom.
+
+Now, my third and last year is over, and I'm busy separating my sell back books from the keepers. Texts: sell back. Novels: keep. I think about the courses I've taken in pursuit of my English degree: Gender and Language, African-American Women Writers, Finite Math (twice), Portuguese I ...  
+
+As I sit on my room floor in the University Park Apartments, with my books spread around me, I am reminded of the strewn college brochures from three years past. Is it really over so soon? What did I even do all this time?
+
+Sure, I got involved. I was a peer advisor and a resident assistant in the Honors College. 
+
+I participated in countless events: karaoke, SPC films, concerts ... everything. Sometimes I did too much and I'd have to lock myself in my room and study for the last three weeks of the semester, to make up class work. 
+
+Still, looking at my last amount of scattered notes that seem to be growing out of every bag, book and purse, I try, but can't remember a damn thing about class. 
+
+I know I got something in return for tuition fees, but what was it?
+
+Right now, Elton John's "Tiny Dancer" is playing from my laptop, and it reminds me of midnight runs to Walgreen's for report covers and communal study hours with friends. I realize as I write this, how true it is that nearly all learning is done outside the classroom. 
+
+With graduation looming over me like a get-out-of-jail-free card, what can I say I've gained after all this supposed "growing up?" 
+
+What can I tell others that they will find and remember from college? 
+
+I don't think I can even make that statement. To be sure, I've gleaned relatively little. 
+
+In my three years of higher education I learned: to remove my jeans from the washer just before they completely dry to keep them from shrinking, that one Hot Pocket is never enough, that you get more gas for your money in the afternoon when the heat makes the oil expand and that true love is everywhere. 
+
+I learned that getting up after two hours of sleep gets only harder with age, that my mother isn't wrong all of the time and that you must do things for yourself  because no one else is going to do them half as good. 
+
+I learned that even what you do get done never comes out the way you pictured it in your mind, that sometimes bosses make the best of friends, that you can't say "yes" to everyone and that parenthood is a reality for many of my childhood friends. 
+
+I learned that even across the miles, some friendships will never be broken.
+
+Most of all, I learned that college isn't everything.
+
+My blue graduation gown is hanging on my closet door, and I've put the stole and other regalia around the collar. I still need to buy the right shoes. 
+
+This Monday, when I walk across the stage, I'll know I've accomplished a lot, but also, that I've accomplished very little. 
+
+As I shake someone's hand, I'll look over at my mom, who just finished nursing school, and know that life isn't a hierarchy of the educated and the uneducated because true learning isn't about textbooks, final papers or raising your hand in class. 
+
+True learning is about love. It's about unconditional love from family and friends and strangers on the street. 
+
+And what of my grand plans? My plan is to give that love to others, and still leave a good bit for myself. 
+
+******************************************
+******************************************
+
+Section: Opinion
+Headline: Graduate reminisces on times at FIU
+Author: Clelia Carcases
+&nbsp;
+I can't believe that my time at FIU has come and gone. It seems like it was only yesterday that I first came here to pursue my bachelor's degree in public relations in the School of Journalism and Mass Communication at Biscayne Bay Campus. 
+
+In reality, it was back in the fall of 1991.  
+
+After two years at FIU and feeling that I was going nowhere, I decided to leave and go to work with my parents.  
+
+That experience turned out to be challenging, exciting, educating and exhausting at the same time. 
+
+It was suddenly interrupted with the terror attacks of September 11, 2001.  
+
+By then, I had been back at FIU for about a month. I came back because I felt I was missing something important in my life, and that was my degree. I am certain that with a degree I will have opportunities come my way that I would not have had without a degree. 
+
+Again, I felt that my pursuit of a degree in public relations was going nowhere.
+
+ So, in the fall of 2002, I switched my major to travel & tourism management in the School of Hospitality & Tourism Management. 
+
+It turned out to be a good decision, not because of the area the degree was in, but more so because of the people that I met while pursuing my degree. 
+
+I loved being in an environment where at any time during my day I could hear a number of different languages being spoken at the same time. 
+
+In the School of Hospitality & Tourism Management, we are lucky to have a student body and faculty that come from anywhere in the world you can imagine. 
+
+We have people from the islands of the Caribbean, Latin America, Europe and even Africa and China.
+
+In a few words, we have our own little "melting pot" in our corner of the campus. 
+
+Since this is my last semester at FIU, I want to take this opportunity to thank all those who have in some way or another enhanced my experience here and made it possible for me to soon be a college graduate.  
+
+Of course, I'd like to thank my family and close friends. Even though they do not always understand why I do the things I do, they have enough confidence in me to understand that there is always a method to my madness. 
+
+Thank you to my former teacher, Mrs. Cynthia Pelaez; without her help I could not be writing these words as she taught me the English language when I first arrived in the U.S. from my homeland, Caracas, Venezuela in 1979.
+
+Robert D. Strickland, though not my teacher directly, was instrumental in my surviving what was a very difficult time in my school life- my high school years. 
+
+I am lucky enough to be able to say that although many years have passed, I am still in contact with these two most influential people in my life and am able to enjoy and share a very special and close friendship with each of them. 
+
+ Please accept my apologies if I do.  
+
+Most importantly, thanks to Diann R. Newman. Without her constant support, guidance and friendship, this long experience would not have gone as smoothly as it did.  
+
+She is truly instrumental to the success of many of the students in the School of Hospitality & Tourism Management. 
+
+To Professors Carter, Del Risco and Cole: thank you for your support, friendship, guidance and knowledge you have passed on to me; Professors Martinez and Moll, your enthusiasm is admirable! I truly enjoyed being in your class. 
+
+I thank all other professors  that I have had in class or have known while on this journey.
+
+Finally, to my classmates: I thank you for welcoming me with open arms, treating me like a friend and keeping me young even though there is easily a 10 to 15 year age difference between most of you and me. 
+
+There are so many people to thank here at FIU that I hope I don't miss anyone.
+
+If I may leave you with a word of advice, as I have been where many of you are headed once you complete your degree here at FIU:
+
+Whatever you do, do it with pride, do it because you love it, do it because there is a fire inside of you that you can't put out and you feel it is the right thing to do in your heart.  
+
+Do it because it will enrich your life and the lives of those around you, not your wallet. Follow your dreams.
+
+******************************************
+******************************************
+
+Section: Opinion
+Headline: LETTER TO THE EDITOR
+Subheadline: Former Dean of School of Journalism disapproves change in SJMC grammar exam 
+Author: [no author name found]
+&nbsp;
+The disembowelment of the writing program of FIU's School of Journalism and Mass Communication is a tragedy for every student of that school, (see SJMC professor resigns after 20 years, April 21 issue).
+
+That program was 20 years in the making. When I was asked in 1983 by the then FIU provost to help straighten out what was a tiny, unaccredited department- he called it "my single biggest academic headache"- I consulted with the leadership of journalism, advertising, public relations and television in South Florida to help determine the direction the school should take.
+
+Without fail, one of the questions every one of them asked me was the same: What are you going to do to make sure your graduates will know how to write when they apply for a job with us? The inability of many college graduates to write well was a huge problem then and remains one today.
+
+But we decided that the buck would stop at SJMC. If applicants didn't know the fundamentals of the language- especially grammar- we did not admit them until they met SJMC standards. 
+
+Once admitted, they had to show that they were making continuing progress in our writing program during their two years with us. And contrary to popular wisdom, these demanding standards did not result in lower enrollments. 
+
+The school grew by leaps and bounds, attracting better and better students who wanted to be challenged.
+
+The principal architect of the program was the departing Professor Kevin Hall. 
+
+What he developed soon won high praise from top journalists from around the country. Every one of the three accreditation teams- the school was accredited in record time in 1991- singled out the writing program as one of SJMC's strong points. 
+
+More importantly, the writing skills learned at SJMC propelled its graduates upward in their careers. A dual Pulitzer Prize winner working for The Miami Herald, for example, told me repeatedly that SJMC's writing course leveled the playing field for him when he competed with other interns at The Herald from places like Harvard, Yale and Brown.
+
+And now it has been destroyed. What replaces it is the same sort of mediocre system used by dozens of j-programs in the country.
+
+But that is not all that's falling apart at SJMC. With the departure of a key faculty member, the international program SJMC developed over more than a decade and which strengthened journalism throughout Central America is very likely to go down the proverbial toilet. 
+
+The same fate appears to face the school's Spanish- language master's program in journalism, the first at any U.S. university. If that happens, three of SJMC's crown jewels will have been plucked. 
+
+Worst of all, there are indications that SJMC has decided to teach its students, by example, that censorship is now an acceptable part of journalism in America.
+
+Sadly, this is happening at the same journalism school which the chair of the last accreditation team only two years ago described to President Maidique as "a top-notch national program."
+
+J. Arthur Heise, Ph.D Professor (ret.) and Founding Dean Emeritus
+School of Journalism and Mass Communication
+
+
+******************************************
+******************************************
+
+Section: Opinion
+Headline: Phew![FIU]
+Subheadline: to the graduates of 2004/2005
+Author: Luis Nin / Graphic Designer
+&nbsp;
+[no story text found]
+
+******************************************
+******************************************
+
+Section: Sports
+Headline: A few thoughts on the future of FIU athletics
+Author: Messod Bendayan / Staff Writer
+&nbsp;
+I, and about 5,000 others, will be part of the graduation ceremonies  during the next two days. The transition from student to alumnus has begun and it's a lot scarier than I thought it would be. 
+
+But before I put on my graduation cap, I will put on a turban and dust off a crystal ball. For my final article, I will make four predictions about FIU Athletics in the near future. Wear a seat belt; it's going to be a bumpy ride.  
+
+Football in deep trouble
+
+There are major questions to answer regarding student leadership, game management and preparation. The 2005 schedule makes last year's look like a game of patty-cake, and FIU finished 3-7 in 2004. I can't see them any better in 2005. 
+
+FIU is trying to pull a "Mission Impossible" that would make Tom Cruise wince. They're trying to succeed in college football at a school with little tradition and poor fan support. If they don't do it this year, I don't think patience will last much longer, especially with Florida Atlantic doing well. Without wins, blue-chip recruits won't take FIU seriously - and neither will anyone else. You're going to need more than Method Man and Redman to get people to come out.
+
+Make no bones about it, head coach Don Strock, Athletic Director Rick Mello and a lot of other people's jobs are on the line in 2005.
+
+Basketball gets a role reversal
+
+Call Sergio Rouco a miracle worker: He turned a bad team into a mediocre one. Thirteen wins in one year is impressive, considering what he inherited. Imagine what can happen when a young and decently talented pipeline is established. FIU will be a power in the Sun Belt, and they will win the league's automatic bid to March Madness at least once in the next five seasons.
+
+I don't see similar things happening for the women's team. Cindy Russo is expected to retire after her 30th year at FIU, which is three years away. The European pipeline, built by Inge Nissen, has brought great players, but that was before bigger-name schools recruited Europeans. Now, FIU hasn't danced since 2001-02 and they have not been a post-season team for the last two years. The time is coming for FIU to re-invent itself, and I think it will happen without Russo and Nissen.
+
+Baseball goes to Omaha
+
+This one is more of a gut feeling, or maybe just bias creeping up on me. There's not a lot of recent history that says FIU will get there. They haven't done well in Sun Belt play and they'll probably have to go through a tough Florida bracket to get a chance. That's assuming they even get to the post-season - something they haven't done since 2002.
+
+I do have one fact backing my prediction. It's not the first time Danny Price has gone through this. After FIU had their first post-season appearance in 1991, it took four years for it to return. 1995's 50-win squad broke the drought. In 1997, there were six straight post-season appearances, and one of those saw FIU finish two games away from the College World Series. 
+
+Some see FIU's recent struggles as a sign that it's time for new management. But I have a feeling FIU is due to break it big and soon. 
+
+Total FIU overhaul
+
+FIU is slowly changing from a commuter school to a traditional college. There's nothing wrong with that, but there is something wrong with the university regularly pissing off students.
+
+FIU must do a better job with addressing the concerns of those who pay their salaries. For people to want to be here, they have to like being here, and I don't think FIU does enough to make that happen. 
+
+Customer service sucks. Parking is always horrendous, as are the parking tickets. Construction never ends. Classes are being cut. Fees are being increased. Campus life is a joke. Guess what that means when people graduate? They don't give money to the school. And they don't give a rat's booty about this place because most people think FIU used them as money cows. There's no loyalty or gratitude when people think they've been milked. 
+
+That's a big reason why FIU gets horrible alumni support and why they can't draw decent crowds to events. You have to get people to go for the love of their school and there's little of that at FIU.
+
+I have lots of love for this place and I wouldn't have chosen to go anywhere else, but I bet that I'm in the very small minority. Administrators have to make student and alumni satisfaction a high priority in the future or risk their plans going belly-up.
+
+Special Thanks
+
+FIU has been a blast. I've had way too much work, play, travel and fun. I wouldn't change most of it. There are lots of people to thank, but I must mention Robert Jaross, Orlando Machado, Will Sanchez and Rich Kelch because each of them was instrumental in my development at FIU.
+
+I will forever be grateful to WRGP because without it, I probably wouldn't graduate. 
+
+The Beacon - specifically Harry Coleman and Xavier Villamarzo - gets its props for giving me a chance to get decent clips. 
+
+Thanks to the School of Journalism and Mass Communication for having great professors, for changing the stupid grammar test and for giving me cool classmates.
+
+But most of all, thanks to those of you who've read my articles and listened to me on the air. Extra special thanks go out to those of you who actually think I'm good. Here's hoping some media company with money to spend is one of them.
+
+******************************************
+******************************************
+
+Section: Sports
+Headline: Farewell graduating athletes
+Author: Xavier Villamarzo / Sports Editor
+&nbsp;
+This is a team-by-team list of all the active student-athletes graduating in Spring of 2005.
+
+Baseball
+
+Leo Calderon, majoring in health information management.
+Dennis Diaz, majoring in physical education.
+Denny Hernandez, majoring in criminal justice.
+
+Men's Basketball
+
+Warren Gale, majoring in sports management.
+ Junior Matias, majoring in liberal studies.
+
+Women's Basketball
+
+Deniz Boz, majoring in business management information systems.
+Milena Tomova, majoring in finance.
+
+Men's Track & Field
+
+Darwin Mesadieu, majoring in international relations with a minor in marketing.
+
+Women's Track and Field
+
+Alexia Dean, majoring in health management.
+Linda Louissant, majoring in construction management.
+Doursiel Moore, majoring in criminal justice.
+Veneisha Williams, majoring in education.
+
+Football
+
+Doug Jones, majoring in business.
+Harold Leath, majoring in business.
+Dannon Monroe, majoring in accounting.
+Greg Moss, majoring in physical education.
+Rashod Smith, majoring in sports management.
+Kevin Timothee, majoring in broadcasting.
+
+Women's Golf
+
+Laura Viveros, majoring in international business.
+
+Women's Soccer
+
+Charissa Gingerich, majoring in exercise physiology.
+
+Softball
+
+Amanda Nealer, majoring in travel and tourism.
+
+Swimming
+
+Tiffany Haynes, majoring in elementary education.
+
+******************************************
+******************************************
+
+Section: Sports
+Headline: FIU football player signs NFL contract
+Author: Nikolay Orekhov / Asst. Sports Editor
+&nbsp;
+Three seasons after inauguration, the FIU football program has developed its first NFL talent. On April 25, defensive back Kevin Timothee became the first player in FIU's brief football history to sign an NFL contract.
+
+Despite going undrafted, Timothee signed a free agent contract with the Tennessee Titans. 
+
+In a press release from the FIU athletic department, head coach Don Strock displayed his support and gratitude.
+
+"We are certainly happy about this opportunity for Kevin," Strock said. "His size and speed are two of his biggest assets, so he should get a good look in the defensive backfield by the Titans. We wish him all the best."
+
+Timothee, a 6-foot-1, 191 pound defensive back, had a time  of 4.28 seconds in the 40-yard dash and was the fastest player on the team. 
+
+Timothee is graduating this semester and was a regular in FIU's special teams and cornerback rotation, playing in 27 games throughout his career. He also holds a school record of 6.84 seconds for 60 meters in indoor track and field.
+
+Timothee graduated from Plantation High School in 2000. He initially attended Ole Miss and transferred to FIU after not getting sufficient playing time.  
+
+Timothee began his career as a Golden Panther his sophmore year, in 2002, when he played significant minutes and was constantly in the defensive backfield in eight games.
+
+In 2003, Timothee saw action in 10 games on special teams and as a cornerback. He recorded 18 tackles on the season.
+
+This past season, Timothee appeared in nine games. He had 15 total tackles, eight of which were unassisted.
+
+In his FIU career, Timothee had seven total passes deflected  but failed to record an interception or a sack. 
+
+
+******************************************
+******************************************
+
+Section: Sports
+Headline: Conference Champions
+Subheadline: Women's tennis wins Sun Belt Conference Championship
+Author: Xavier Villamarzo / Sports Editor
+&nbsp;
+Women's tennis coach Ronni Bernstein was awarded Sun Belt Conference Coach of the Year after her team won its first ever Sun Belt Conference Championship April 24 at No. 26 South Alabama. The championship victory gave the Golden Panthers an automatic bid to the NCAA regional tournament, which will be held on May 13-15.
+
+******************************************
+******************************************
+
+Section: News
+Headline: Ceremony planning stage over for students, faculty
+Author: Ana Sanchez
+&nbsp;
+After years of academic studies, 3,200 FIU students are expected to hear their names read at graduation ceremonies held from May 3 to May 4 at the Pharmed Arena at the University Park campus. 
+
+For the past couple of weeks, the Office of the Registrar has seen long lines of seniors working on the final details of the application process toward commencement and waiting to receive the tickets for family and friends attending the ceremony. 
+
+A week before the ceremony, the Office of the Registrar serviced 960 students who were waiting for tickets. 
+
+The application process for the ceremony includes filling out the commencement confirmation form and getting approval of completion of credits by advisors. 
+
+Graduation Supervisor Gisela C. Cabrera stresses the importance of applying for the graduation ceremony at the right time. 
+
+"As important as commencement is, it is more important to apply for the correct semester in which the student is going to complete all necessary courses in order to earn their degree,"  Cabrera said. 
+
+Students are advised to start applying the semester before they finish all the requirements to graduate and not in the middle of the final semester, which ultimately slows down the process of approval. 
+
+It is important that hopeful graduates understand that walking the ceremony does not mean that they will graduate and they will not receive their degree until all their requirements are met.
+
+Although Tania Vazquez, who is majoring in psychology, applied mid-semester, the application process went smoothly. While standing in line to get tickets for the ceremony, Vasquez recounted her commencement preparations. 
+
+"I went to my advisor to check for my credits, then I just filled the application. I have one class remaining that I plan to take in the summer," Vazquez said.
+
+Brian Brown, who is majoring in health science, had a similarly rapid experience. 
+
+"I started my graduation application at the beginning of this semester. My advisor did it all for me. My requirements had already been done and it was quick and easy,"  Brown said.
+
+Although some students will walk at the commencement ceremony, they will not officially graduate and receive their diploma if they have not completed all of their requirements and registered for the summer semester to complete missing credits. 
+
+Students graduating this semester will not receive their diploma at commencement. Diplomas will not be distributed until 10 to 14 weeks after grades become available.
+
+It will be a year of firsts for FIU as the College of Law will graduate its inaugural class of approximately 52 students. Provisionally approved by the American Bar Association, the College of Law will hold its commencement ceremony  May 22 at the Wertheim Performing Arts Center. 
+
+During the ceremonies, prominent alumni will receive Distinguished Alumni Service medallions for their contributions to the community and to FIU. 
+
+Amongst these alumni are broadcast executive Michael Rodriguez, vice president and general manager of Telemundo 51/WSCV, Thomas M. Cornish, CEO of Seitlin, the largest independent insurance company in South Florida and Frank J. Bolanos, chairman of the Miami-Dade County Public School Board. 
+
+The College of Arts and Sciences commencement ceremony has the largest number of graduates this year - about 1,005 students. During this ceremony, a posthumous degree will be given to the parents of Robert James Smiddy. Smiddy passed away on Sept. 18, 2004 of a bleeding complication from a viral disease. He had earned 119 credits for his degree in biological sciences. The Robert J. Smiddy Memorial Award will be presented to a distinguished student from the Department of Biological Sciences. 
+
+After the commencement ceremonies a reception will follow for the alumni honored with the Distinguished Service medallions.
+
+
+******************************************
+******************************************
+
+Section: News
+Headline: Senior leaves mark in student affairsmark in student affairs
+Author: Ana Sanchez
+&nbsp;
+Onika Williams enjoys doing the ordinary things most college students do - listening to Kanye West, eating sushi at her dorm with friends and sleeping whenever she gets a chance. However, she is not your typical college graduate. 
+
+Not only did she take 21 credits this semester and work part time at the Office of Admissions, but she also maintained a 3.59 grade point average along with four scholarships.
+
+Four years ago, Williams became the Salutatorian of her senior class at Homestead Senior High School and was accepted to eight universities, including the University of Florida, Virginia Tech, Spelman and Florida State. 
+
+So, why did Williams decide to attend FIU? Her reason was simple.
+
+"Out of all the schools that I was accepted to, FIU was the one that didn't treat me like a number. They really cared whether I came here or not," Williams said.
+
+After winning the Martin Luther King essay contest, Williams got recruited by Provost Mark B. Rosenberg her senior year to come to FIU.
+
+He spoke to Williams and her mother about what FIU had to offer and gave them a tour of FIU while William's mother told Rosenberg how well her daughter was doing in school. Four years later, Williams will be the first generation college graduate in her family that includes seven siblings. 
+
+"My parents support me 100 percent and I want to make them proud," said Williams on her accomplishment of receiving a degree.
+
+Over 90 percent of students who attend Homestead Sr. High are minorities, and English is not their first language, which puts them at a disadvantage when it comes to standardized tests. Students are not even aware of the procedures needed in order to attend a university.
+
+"We weren't even told about taking the SATs or ACT. We would see more recruiters from the military at our school than colleges coming to visit us, so students don't even take the tests," said Williams.
+
+Williams is one of the few Homestead graduates who came to FIU and she hopes to be an example to those students.  If she did it, she knows many could do the same.
+
+"I come from the same place that you come from and if I can do it, you can do it too," she said.
+
+Throughout her college years, Williams had a unique experience of Rosenberg always checking her grades to see if she was doing well in school.  
+
+"Not everybody gets to say that the provost of a major university knows your name and family," Williams said.
+
+Getting involved in school came natural to Williams, who belonged to many honors societies and was an active member of the Delta Sigma Pheta sorority. 
+
+She also interned at Disney World where she did her thesis for the Honors College. In Orlando, she see got to see her idol, Kanye West, perform at Disney's House of Blues.  
+
+Last year, she attended Alternative Spring Break with the International Business Honor Society in Bangkok, Thailand, where she found a love for sushi and a passion for helping abused women. 
+
+"I find Onika to be a caring, sensitive and intelligent individual, which is why I think she was a perfect fit for the work she was doing in Bangkok," said Malcom Vivian, graduate assistant and civic engagement coordinator.
+
+In Bangkok, Williams and her peers worked alongside the association to promote the status of women. 
+
+They focused on the care of abused women and those who carried the HIV virus. They are currently working on a project in which these women can sell their embroidery in the United States. 
+
+Williams will continue to oversea civic involvement through the Japanese Exchange Teaching (JET) Program. For a year, she will be teaching English to children in Japan.
+
+"Onika is a very endearing individual who doesn't mind taking challenges and going to places that normal people would not dare to go. She's about to leave for the JET Program and we are really excited for [her]," said Terrance Cribbs-Lorrant, graduate advisor of Greek Affairs.
+
+What inspired Williams in the JET Program was the International Business Honors Program and the Japanese I and II classes she took at FIU. 
+
+On May 3, she will walk in the commencement ceremony and graduate with a bachelors degree in Business Administration and a minor in Asian Studies. Williams would like to continue her studies and go on to law school. 
+
+Reflecting on her FIU experience, Williams fondly remembers meeting Black Panther activist Angela Davis when she came to speak at the university. 
+
+"Never in my wildest dreams I thought I would meet Angela Davis. I went up to her, she signed my book and had my picture taken. She is somebody I really look up to," Williams said.
+
+Williams encourages students to get involved in school as much as they can. 
+
+Her message to students is to change what they don't like and to take advantage of the opportunities at FIU.
+
+"Don't just take your classes and leave. Get involved because when something happens that you don't like, you can't complain because you weren't there to do anything about it. Use your voice and opportunities given at FIU," she said.
+
+The soon to be FIU alumna thinks that students should not take FIU for granted.
+
+"Just because the school is within your reach and it's in your city, that doesn't mean it's something you have to settle for. FIU is a premier university and I think people get caught up in the idea of having to go away for school that they look over opportunities that they have right here. Just because it's not six or eight hours away doesn't mean it is not good enough," Williams said. 
+
+******************************************
+******************************************
+
+Section: News
+Headline: Hackers invade UTS system
+Author: Giovani Benitez / In-Depth Editor
+&nbsp;
+As the university launches a new campaign to filter viruses in FIU e-mail, it faces a new "critical" challenge ­- one that originated from a potential hacker attack involving some 165 computers on campus, University Technology Services announced last week. 
+
+"Programs were placed on the systems and a scan was done. It doesn't mean that anything was necessarily taken from the system. I'm more concerned about identity theft," said John P. McGowan, chief information officer and vice president of information technology.
+
+The program allegedly retrieved usernames and passwords for FIU administrators, UTS representatives and others in the university community. However, the financial system was not compromised, McGowan said.
+
+This isn't the first time FIU has dealt with hackers. In June 2002, keystroke tracking software was found on the computers in one of the Green Library's student labs.  
+
+The program was designed to record everything a student typed on the computers, including credit card numbers used when placing online orders. Ultimately, the FBI linked the hacker attack with members of the Russian mafia and an arrest was made.
+
+Nearly three years later, the university still deals with similar situations, but FIU is not alone.
+
+"They're not just probing our network, they're probing many networks, and when they find weaknesses in systems, they then start to utilize programs that are capable of a brute-force examination of those systems to see if they can compromise them," McGowan said.
+
+The Privacy Rights Clearinghouse in San Diego tracked a series of hacker attacks since February on university computer systems across the country.  
+
+The University of California at Berkeley, Tufts University, Boston College and Carnegie Mellon University are just a few on the list. Just last weekend, hackers broke into the Georgia Southern University online store, but much like in FIU's case, there is no evidence that financial information was ever stolen.
+
+Kia Makki, Lucent Technology professor at FIU's Telecommunications and Information Technology Institute, said that cyber security awareness is key in a world where privacy is an increasingly valued commodity.
+
+"Maybe the university has to offer some short training courses, [much] like they offer short training courses for PantherSoft. People need to know what the issues are and what they need to look for. You have to be able to carefully protect yourself," said Makki, who is currently planning an international workshop on mobile and wireless security in Miami for March 2006.
+
+ Meanwhile, McGowan insists that the university, as well as federal agencies, are still investigating the latest security breach, but suggests that students, faculty and staff should routinely shut down their computers in an effort to prevent future hacker attacks.
+
+Most recently, the university implemented a new anti-virus and anti-spam system for all FIU e-mail accounts. The program will identify e-mail messages considered to be of highest risk. A UTS field team will also visit several university offices to make sure all computers are virus-free and secure.
+
+******************************************
+******************************************
+
+Section: News
+Headline: Steel, cement price slow construction
+Author: Karen Buitrago
+&nbsp;
+Buried utilities and infrastructure problems are being blamed for the delay of Biscayne Bay Campus' new cafeteria, scheduled to open in the summer of 2006.
+
+FIU has spent more than $4 million toward the construction of a new dining facility and fitness center at the Wolfe University Center.
+
+According to Nick DiCiacco, executive director for business and finance, the funds for the construction are coming from the Capital Improvement Trust Fund (CITF), which consists of payments made to the state from universities resulting from student fees. 
+
+"On the CITF, the University gets what was contributed plus interest on a 3-4 year cycle," DiCiacco said.
+
+The funds for the construction are also coming from auxiliary funds, which are the profits of vendor enterprise. 
+
+This includes bookstore and food service, which means that students contribute financially to the construction. 
+
+The initial budget did not include the rising prices of steel and cement.
+
+"[Prices] continue to escalate because of demand," DiCiacco said.
+
+The planning for the construction took approximately six years. 
+
+However, actual construction started two years ago. Vice Provost Raul Moncarz insisted that these delays are normal in construction.
+
+"I know it's bothersome for the students, but we have to be positive,"  Moncarz said.
+
+Moncarz added that BBC has encountered construction problems and unexpected costs, not only with the new cafeteria, but also with the fitness center and the health center.
+
+Brian Haynes, director for student affairs, agreed.
+
+"Any time construction is delayed for a home, a commercial freight [or] school building, costs are going to be more," Haynes said.
+
+The new cafeteria is expected to house possible vendors. DiCiacco said that food contracts are currently out for bid. The current cafeteria features Grille Works, Pizza Hut, Subway and Star Spangled Café, in addition to soda machines, snacks, sushi and a salad bar.
+
+Lack of food variety was a recurring concern among students who frequent the current cafeteria.
+
+"The [staff] is friendly, but there's not much variety," said freshman Jael Fernandez.
+
+"I get tired of eating Subway everyday. It would be good if [it] had more [of a] variety," said senior Sergio Carmona.
+
+Some of the students remain oblivious to the construction.
+
+"I didn't know that we are having a new cafeteria," Carmona said, adding that he visits the cafeteria's in between classes and likes it because "it's pretty quiet."
+
+Besides the lack of food choices, the cafeteria hour of operation causes an inconvenience to students. 
+
+The cafeteria opens Monday through Friday from 8 a.m. until 6 p.m. Fridays, the cafeteria closes at 2:30 p.m. 
+
+Monday through Friday, the University Park cafeteria opens an hour earlier than the one at BBC.
+
+"When we get to [the UP cafeteria] at 6:45 a.m., you already have something to eat," said freshman Dagmar Ocasio. "[At BBC] the cafeteria opens at 8 a.m. and the only things you can eat are sushi, a Jamaican patty or a burger."
+
+Ocasio mentioned that the scheduling is an inconvenience for the evening students because the cafeteria now closes at 6 p.m. Moncarz said that there is not enough demand from the estimated 7,500 students and the 10,000 staff members at BBC to introduce new things to the menu. 
+
+At UP, there's triple that population, which consequently creates demand for variety. 
+
+Moncarz  added that the administration is working hard to make sure the cafeteria opens in a timely manner.
+
+"I hope it could open tomorrow," Moncarz said.
+
+******************************************
+******************************************
+
+Section: Life!
+Headline: Moving Foward to the Beat
+Author: Michelle Santisteban
+&nbsp;
+Most kids jump from one activity to another for years before they settle on something they enjoy. They take ballet classes, join baseball teams or even take a stab at reading for enjoyment. 
+
+Some children will continue their hobby for a couple of years before losing interest, but for the lucky ones, that little hobby becomes a genuine passion. 
+
+Zoila Araica was one of the lucky ones. She was nine years old when she began playing the clarinet. She didn't expect to continue with the instrument or even music, but because she noticed that playing the clarinet came natural to her, she decided to give it a try. 
+
+"I started practicing and it came really easily to me. After that, I skipped levels so I really liked it. It was really satisfying," Araica said. 
+
+She continued to excel in music over the years and her hard work paid off. At the age of 15, she was elected drum major of her high school's marching band.  
+
+According to Araica, being drum major is no easy task; one has to run rehearsals, conduct field shows and discipline band members who are out of line - no matter how much older and more physically imposing they are than you. 
+
+"I was barely 15 and I was having to boss around 18-year-old guys. One time I called the band to attention and they responded except for this one guy. I told him to drop and do push-ups and he told me f--- you. Of course, when you're 15 you want to cry and go into a hole. But no, I just stepped off the ladder, told someone else to run rehearsal and I took him off to the side. I told him f--- you in an educated way," Araica said. 
+
+Experiences like that one helped shape and prepare her for the even bigger challenges she faced while being the FIU Golden Panther Band's drum major for the four years she has attended FIU. 
+
+She not only benefited from the experience of prior incidents, but also from having  Gregory Martin, marching band and symphony band director at FIU, around to help guide and educate her more than anyone else could. 
+
+"He helped me so much and I have no words for that," said Araica. 
+
+Araica graduates this week with a bachelor's in music, even though she officially majored in music education. 
+
+Because of conflicts between the College of Education and the School of Music, she was unable to graduate with a bachelor's in music education. 
+
+"I got stuck with a bachelor's in music with a concentration in education, and that really bothered me because I did as much work as any other person getting a bachelor's in education." 
+
+Even though she is graduating, she is not done with school. She plans on returning to get her master's in conducting.
+
+Although many people enjoy music, they do not see it as a legitimate career - the way Araica does. 
+
+"It is not respected among society, music or music education. It's belittled instead of being put on a pedestal," she said. 
+
+Because of this view of music, jobs in this field are few and under-paid considering the amount of work a music educator has to do. 
+
+Although financial stability is something Araica wants in the future, the low pay has not deterred her from going into her chosen field. She hopes to one day teach an elementary school class and pass on the gift of music she received as a child. 
+
+"If you are a part of an ensemble, you get this connection that you don't see but you feel in some way," Araica said. "If you are conducting it's even better because you get the full spectrum of all the tone colors and you are helping to create a mold out of that moment." 
+
+For being only 21 years old, Araica has accomplished more than most people her age. Over a period of five years, she has led two different ensembles as drum major; one of the most challenging and time-consuming jobs anyone can hold. 
+
+She has stepped up to the people who did not respect her, and in turn gained the respect of everyone. 
+
+She has accepted the fact that because she wants to make a career out of what she loves, she won't receive the recognition or the salary she truly deserves.
+
+******************************************
+******************************************
+
+Section: Life!
+Headline: Prado ready to start making a difference
+Author: Charlie Grau / Editor-In-Chief
+&nbsp;
+Alex Prado, the newly elected Student Government Association president, sat with The Beacon for an exclusive interview regarding his thoughts on this year's campaign, his plans for the new administration and advice for graduates that plan to stay in contact with their alma mater.
+
+Q: What were your feelings when they announced you had won the SGA elections?
+
+I was extremely excited and overwhelmed. I just couldn't thank the people who helped me out enough, because I couldn't have done it without all those that helped me campaign. So that's the first thing I felt, gratitude to all the people that helped me out.
+
+Q: When do you officially begin your role as University Park's SGA president and what are the first things you plan on doing?
+
+As far as the Board of Trustees, I begin May 1 and as far as the actual student body president, I begin May 9. Right now we're in the process of moving into a new office because we're moving from the third floor to the second floor of the Graham Center. 
+
+After that, I'm going to be working on some different issues that were on my platform. 
+
+One of these is the [Graham Center] Pit being sealed off due to fire purposes. We're working on that, and that's the biggest thing I'm working on right now, which is the biggest thing that came up.
+
+Q: What policies or ideas from the former administration do you want to change?
+
+The difference between this administration and the last  is that I'm going to be holding people a little more accountable to their positions. 
+
+I also want to create certain positions based on my platform to reach out to students that haven't been heard from before - such as multi-cultural students to faith-based organizations, and making sure those get heard. That's going to be the major difference: helping out groups that haven't really been heard before while still addressing everything else that is supposed to be addressed.
+
+Q: What policies from the Rosario administration do you plan to continue or keep the same?
+
+He started the Tech Committee, which worked closely with [the University Technology Services offices] to establish a new anti-spam program that's going to be installed in the Webmail. 
+
+We're also looking for a new type of web service that's faster, quicker and more user-friendly. Those plans were very successful and I want to continue those types of projects. The Panthercard expansion is almost done as well. We're just pushing for the completion very soon.
+
+I never liked how a lot of administrations came in and started their own agendas. 
+
+I want to finish what he did. Some of my platform plans were based on what I could get done from the last administration.
+
+Q: What were your thoughts on your opponent, Aurelio "P.J." Rivera?
+
+My opponent is a great leader. At the SGA banquet, I mentioned him. I don't have to tell him to continue serving FIU because I know he will. I think he's a great asset to FIU. I don't know what he plans to do in the future - I haven't spoken to him yet - but whatever he plans to do I wish him the best. I know he'll continue to do whatever's best for FIU students, whether he does it for SGA or through anything else he gets involved with. He just hasn't talked too much with me.
+
+Q: Do you think your affiliation with the Pikes helped in the campaign?
+
+No. Other than them supporting me, I don't think it helped or hurt at all. It was just my brothers that came out and helped me out. 
+
+I've heard that a lot of people who were in other fraternities, other sororities or who were not even affiliated with the Greeks who believed in the platform, also helped me out.
+
+Q: Do you think a Greek presence will influence your administration?
+
+For the past eight to ten years, I believe every SGA president has been Greek, so I don't think it's a big deal. I'm an FIU student first, and there's nothing wrong with being an FIU student.
+
+Q: What do you think is the best way for graduating students to keep in contact with the university?
+
+I think our Alumni Association is great. They've been making great strides in staying communicated with our alumni, helping many come to our athletic events and just reminding them where they came from. 
+
+A university's prestige is based on their alumni base and all the other "traditional" universities, such as [the University of Florida] and [Florida State University] are great because of alumni coming back after establishing themselves and donating money and supporting athletic events. I think it's just important to hold FIU at great lengths because that's where they got their degrees from and if they have those degrees they'll be more important in the end.
+
+******************************************
+******************************************
+
+Section: Life!
+Headline: Winner and Loser
+Subheadline:  
+Author: Michelle Ferrer / Opinion Editor
+&nbsp;
+WINNER
+Class of 2005:  Congratulations on your hard work  and devotion. The Beacon praises you for years of dedication and achievements. Rock on!
+ 
+LOSER
+Bragging Bigamist: A bigamist in Greater Manchester, England was caught bragging about his new 20-year old-wife on a friends reunited web site, when his other 45-year old wife caught him as she was surfing the same site. He received a 16-week suspended jail sentence for bigamy and made false declarations for the purpose of marriage.
+
+******************************************
+******************************************
+
+Section: Life!
+Headline: Life! 5
+Subheadline: some favorite things by Jorge Rosario -2004-2005 SGA President
+Author: [no author name found]
+&nbsp;
+1. Good conversation
+What good is anything if you can't have a meaningful chat about it? The key to happiness and success is to be able to have a conversation in which all parties involved find significant value in what is said.
+
+2. Dave Matthews Band
+Label me as one of their loyal followers. DMB's music is life. If you're a fan, you know what I'm talking about. If you aren't, you just wouldn't understand. They're coming to town this summer July 16-17. Yes, I will be at both shows. 
+
+3. College Basketball
+It's refreshing to watch a game where young men play their hearts out for the sake of winning and pride - and not for a paycheck. I'll take a Princeton back door cut, a Syracuse 2-3 zone and a Kentucky Run 'n Jump over the one-on-one basketball played in the NBA.
+
+4. Red wine
+    It's dark, complex and robust with hints of vanilla and blackberry. A must-have with a barely cooked 14 oz. piece of meat from your favorite steakhouse. Not only will red wine get you buzzed, but it's good for your heart as well!
+
+5. Texas Hold'em poker
+ This classic card game involves simple math, keeping a straight face while lying and taking someone else's money. I've gotten pretty good at it. It's the perfect game for a graduating member of SGA! I'm just kidding ... seriously. 
+
+******************************************
+******************************************
+
+Section: Life!
+Headline: Senior optimistic after criminal past
+Author: Julia Marchese / Staff Writer
+&nbsp;
+Most kids jump from one activity to another for years before they settle on something they enjoy. They take ballet classes, join baseball teams or even take a stab at reading for enjoyment. 
+
+Some children will continue their hobby for a couple of years before losing interest, but for the lucky ones, that little hobby becomes a genuine passion. 
+
+Zoila Araica was one of the lucky ones. She was nine years old when she began playing the clarinet. She didn't expect to continue with the instrument or even music, but because she noticed that playing the clarinet came natural to her, she decided to give it a try. 
+
+"I started practicing and it came really easily to me. After that, I skipped levels so I really liked it. It was really satisfying," Araica said. 
+
+She continued to excel in music over the years and her hard work paid off. At the age of 15, she was elected drum major of her high school's marching band.  
+
+According to Araica, being drum major is no easy task; one has to run rehearsals, conduct field shows and discipline band members who are out of line - no matter how much older and more physically imposing they are than you. 
+
+"I was barely 15 and I was having to boss around 18-year-old guys. One time I called the band to attention and they responded except for this one guy. I told him to drop and do push-ups and he told me f--- you. Of course, when you're 15 you want to cry and go into a hole. But no, I just stepped off the ladder, told someone else to run rehearsal and I took him off to the side. I told him f--- you in an educated way," Araica said. 
+
+Experiences like that one helped shape and prepare her for the even bigger challenges she faced while being the FIU Golden Panther Band's drum major for the four years she has attended FIU. 
+
+She not only benefited from the experience of prior incidents, but also from having  Gregory Martin, marching band and symphony band director at FIU, around to help guide and educate her more than anyone else could. 
+
+"He helped me so much and I have no words for that," said Araica. 
+
+Araica graduates this week with a bachelor's in music, even though she officially majored in music education. 
+
+Because of conflicts between the College of Education and the School of Music, she was unable to graduate with a bachelor's in music education. 
+
+"I got stuck with a bachelor's in music with a concentration in education, and that really bothered me because I did as much work as any other person getting a bachelor's in education." 
+
+Even though she is graduating, she is not done with school. She plans on returning to get her master's in conducting.
+
+Although many people enjoy music, they do not see it as a legitimate career - the way Araica does. 
+
+"It is not respected among society, music or music education. It's belittled instead of being put on a pedestal," she said. 
+
+Because of this view of music, jobs in this field are few and under-paid considering the amount of work a music educator has to do. 
+
+Although financial stability is something Araica wants in the future, the low pay has not deterred her from going into her chosen field. She hopes to one day teach an elementary school class and pass on the gift of music she received as a child. 
+
+"If you are a part of an ensemble, you get this connection that you don't see but you feel in some way," Araica said. "If you are conducting it's even better because you get the full spectrum of all the tone colors and you are helping to create a mold out of that moment." 
+
+For being only 21 years old, Araica has accomplished more than most people her age. Over a period of five years, she has led two different ensembles as drum major; one of the most challenging and time-consuming jobs anyone can hold. 
+
+She has stepped up to the people who did not respect her, and in turn gained the respect of everyone. 
+
+She has accepted the fact that because she wants to make a career out of what she loves, she won't receive the recognition or the salary she truly deserves.
+
+******************************************
+******************************************
+
+Section: Unapproved Reader Submissions
+Headline: your current paper
+Subheadline:  
+Author: theatregrovey@yahoo.com
+&nbsp;
+Hello,
+
+I currently tend Miami Dade Community in Wolfson-I will be going to FIU in the fall and was currently on campus this past week.  First, your paper was very good-our paper is a mess-but the point in me writing you is on the front of your page you had an article about a young woman who will be teaching over in Japan for a year.  I was in such a rush that I put the paper down without taking it with me.  I am very curious about that program and wondering if you can tell me the name of it.
+
+You should be very proud of your paper-it was impressive
+
+Jennifer Ashley
+
+******************************************
+******************************************
+
+Section: Unapproved Reader Submissions
+Headline: Changes to the SJMC  Program
+Subheadline:  
+Author: chars001@fiu.edu
+&nbsp;
+   I applaud the recent changes to the SJMC program. The faculty and administration cannot possibly be expected roll over for some backwards, troglodytic mule of a professor who refuses to play nice, does not understand modern technological advances and democratic systems of government and university/departmental administration.
+
+   The SJMC program must turn away from such people, let them leave, and must begin to prepare its students for the 21st century. It must therefore cease to stress annoying things like grammar (we all have spellcheckers anyways, don't we?) and must rather stress the essentials: appearance, connections, plagiarism and above all else prostitutional skills (both moral and physical), because journalism students will not be going anywhere if they do not begin cultivating these vital skills now.
+
+Chris Harshaw, Doctoral Student
+Developmental Psychobiology
+
+
+******************************************
+******************************************
+

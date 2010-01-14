@@ -1,0 +1,87 @@
+/* line 20, ../../../../app/stylesheets/admin/lib/menu.sass */
+#navigation-wrapper {
+  width: 144px;
+  float: left;
+  clear: left;
+  font-size: 12px; }
+  /* line 25, ../../../../app/stylesheets/admin/lib/menu.sass */
+  #navigation-wrapper a {
+    display: block;
+    text-decoration: none; }
+    /* line 28, ../../../../app/stylesheets/admin/lib/menu.sass */
+    #navigation-wrapper a:hover {
+      color: #000; }
+  /* line 30, ../../../../app/stylesheets/admin/lib/menu.sass */
+  #navigation-wrapper ul {
+    font-family: Helvetica, Arial, sans-serif; }
+    /* line 32, ../../../../app/stylesheets/admin/lib/menu.sass */
+    #navigation-wrapper ul li a {
+      background: #fff url("/images/admin/menu-bits.gif") no-repeat scroll 0 -310px;
+      border-right: 1px solid #e3e3e3;
+      padding: 2px 12px;
+      line-height: 18px;
+      height: 18px; }
+      /* line 38, ../../../../app/stylesheets/admin/lib/menu.sass */
+      #navigation-wrapper ul li a:hover {
+        background-color: #eaf2fa; }
+    /* line 40, ../../../../app/stylesheets/admin/lib/menu.sass */
+    #navigation-wrapper ul li.active > a {
+      background: transparent url("/images/admin/menu-bits.gif") no-repeat scroll 0 -289px;
+      color: #D54E21; }
+      /* line 43, ../../../../app/stylesheets/admin/lib/menu.sass */
+      #navigation-wrapper ul li.active > a:hover {
+        color: #000;
+        margin-left: 0px;
+        padding-left: 12px; }
+  /* line 48, ../../../../app/stylesheets/admin/lib/menu.sass */
+  #navigation-wrapper ul.level-1 {
+    list-style-type: none;
+    margin: 0;
+    width: 144px; }
+    /* line 53, ../../../../app/stylesheets/admin/lib/menu.sass */
+    #navigation-wrapper ul.level-1 > li > a {
+      background: #f1f1f1 url("/images/admin/menu-bits.gif") repeat-x scroll left -379px;
+      border-style: solid solid none;
+      border-width: 1px;
+      border-color: #e3e3e3;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 13px;
+      padding: 0px 12px;
+      height: 29px;
+      line-height: 29px; }
+      /* line 64, ../../../../app/stylesheets/admin/lib/menu.sass */
+      #navigation-wrapper ul.level-1 > li > a:hover {
+        color: #D54E21; }
+    /* line 66, ../../../../app/stylesheets/admin/lib/menu.sass */
+    #navigation-wrapper ul.level-1 > li.first > a {
+      -webkit-border-top-left-radius: 8px;
+      -webkit-border-top-right-radius: 8px;
+      -khtml-border-top-left-radius: 8px;
+      -khtml-border-top-right-radius: 8px;
+      -moz-border-radius-topleft: 8px;
+      -moz-border-radius-topright: 8px; }
+    /* line 68, ../../../../app/stylesheets/admin/lib/menu.sass */
+    #navigation-wrapper ul.level-1 > li.last.no-subitems > a {
+      -webkit-border-bottom-left-radius: 8px;
+      -webkit-border-bottom-right-radius: 8px;
+      -khtml-border-bottom-left-radius: 8px;
+      -khtml-border-bottom-right-radius: 8px;
+      -moz-border-radius-bottomleft: 8px;
+      -moz-border-radius-bottomright: 8px;
+      border-bottom-style: solid; }
+    /* line 71, ../../../../app/stylesheets/admin/lib/menu.sass */
+    #navigation-wrapper ul.level-1 > li.last.has-subitems {
+      border-bottom: 1px solid #e3e3e3; }
+    /* line 73, ../../../../app/stylesheets/admin/lib/menu.sass */
+    #navigation-wrapper ul.level-1 > li.active > a {
+      background: rgb(109,109,109);
+      border-color: rgb(109,109,109);
+      color: #fff; }
+  /* line 78, ../../../../app/stylesheets/admin/lib/menu.sass */
+  #navigation-wrapper li.separator {
+    background: #ddd;
+    height: 1px;
+    margin: 9px 0px; }
+    /* line 82, ../../../../app/stylesheets/admin/lib/menu.sass */
+    #navigation-wrapper li.separator hr {
+      display: none; }

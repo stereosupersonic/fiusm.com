@@ -1,0 +1,7 @@
+/* line 6, ../../../app/stylesheets/lib/forms.sass */
+form label {
+  float: left;
+  width: 150px; }
+/* line 9, ../../../app/stylesheets/lib/forms.sass */
+form input, form textarea {
+  width: 400px; }

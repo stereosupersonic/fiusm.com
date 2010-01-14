@@ -1,0 +1,46 @@
+#main
+  .breadcrumbs
+    %ul
+      %li= link_to 'Home', root_url
+      %li= link_to @article.primary_category.name, @article.primary_category
+
+  .article
+    %h1= title @article.headline
+    - if @article.summary
+      %h3= @article.summary
+    - if true
+      .photos.wide
+        = render Image.first, :style => :article_wide
+    %p.byline= article_byline(@article)
+    %p.date
+      == Published #{@article.publish_at.to_formatted_s(:formal_date)}.
+      - if resource.recently_updated?
+        %em== Updated #{time_ago_in_words(resource.updated_at)} ago.
+    = render :partial => 'articles/sharing_tools'
+    .content= @article.body.to_html
+
+  .comments
+    %h3
+      - link_to({ :anchor => 'comments' }, :name => 'comments') do
+        Comments
+        %span.count== (#{resource.comments_count})
+
+    - form_for :comment, :url => comments_url, :html => { :class => 'clearfix' } do |f|
+      %h5 Post a comment
+      %p.profile_pic
+        = fb_profile_pic current_user.to_fb, :size => :small, :width => 100
+      .body
+        %p.status
+          You are currently logged in as
+          == #{fb_name current_user.to_fb, :useyou => false}.
+        = f.hidden_field :article_id, :value => resource.id
+        = f.text_area :text
+        = f.submit 'Comment'
+
+    = will_paginate @comments
+
+    %ul
+      - @comments.each do |comment|
+        %li.comment= render comment
+
+    = will_paginate @comments

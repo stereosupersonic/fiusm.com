@@ -1,0 +1,61 @@
+/* line 1, ../../../app/stylesheets/pages/user_sessions.sass */
+#login_box_wrapper {
+  font-family: Georgia, "Times New Roman", serif;
+  margin: 2em auto;
+  width: 546px; }
+  /* line 5, ../../../app/stylesheets/pages/user_sessions.sass */
+  #login_box_wrapper h1 {
+    font-size: 22px;
+    color: #002c48;
+    font-weight: bold;
+    margin-bottom: 0.5em; }
+
+/* line 11, ../../../app/stylesheets/pages/user_sessions.sass */
+#login_box {
+  background: url(../images/user_sessions/login_bg.gif);
+  border: 3px solid #035;
+  padding: 1em 0; }
+  /* line 15, ../../../app/stylesheets/pages/user_sessions.sass */
+  #login_box h2 {
+    font-size: 1.3em;
+    color: #002c48;
+    margin-bottom: 1em; }
+  /* line 19, ../../../app/stylesheets/pages/user_sessions.sass */
+  #login_box li {
+    width: 148px;
+    margin-right: 2px;
+    padding: 0px 15px;
+    float: left; }
+  /* line 25, ../../../app/stylesheets/pages/user_sessions.sass */
+  #login_box form label {
+    font-weight: bold;
+    font-size: 0.9em; }
+  /* line 28, ../../../app/stylesheets/pages/user_sessions.sass */
+  #login_box form input {
+    width: 144px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 0.9em;
+    padding: 2px; }
+  /* line 33, ../../../app/stylesheets/pages/user_sessions.sass */
+  #login_box form .text_field {
+    margin-bottom: 0.5em; }
+  /* line 35, ../../../app/stylesheets/pages/user_sessions.sass */
+  #login_box form .select {
+    width: 80px;
+    float: left; }
+    /* line 36, ../../../app/stylesheets/pages/user_sessions.sass */
+    #login_box form .select label {
+      display: none; }
+    /* line 38, ../../../app/stylesheets/pages/user_sessions.sass */
+    #login_box form .select select {
+      width: 100%; }
+  /* line 42, ../../../app/stylesheets/pages/user_sessions.sass */
+  #login_box form .submit {
+    text-align: right;
+    float: right;
+    width: 68px; }
+    /* line 46, ../../../app/stylesheets/pages/user_sessions.sass */
+    #login_box form .submit button {
+      padding: 4px;
+      font-size: 0.9em;
+      float: right; }

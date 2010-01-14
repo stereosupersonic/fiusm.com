@@ -1,0 +1,83 @@
+!sans_family = "Helvetica, Arial, sans-serif"
+!serif_family = "Georgia, \"Times New Roman\", Times, serif"
+
+=top-border-rounding
+  :-webkit-border-top-left-radius 8px
+  :-webkit-border-top-right-radius 8px
+  :-khtml-border-top-left-radius 8px
+  :-khtml-border-top-right-radius 8px
+  :-moz-border-radius-topleft 8px
+  :-moz-border-radius-topright 8px
+
+=bottom-border-rounding
+  :-webkit-border-bottom-left-radius 8px
+  :-webkit-border-bottom-right-radius 8px
+  :-khtml-border-bottom-left-radius 8px
+  :-khtml-border-bottom-right-radius 8px
+  :-moz-border-radius-bottomleft 8px
+  :-moz-border-radius-bottomright 8px
+
+#navigation-wrapper
+  :width 144px
+  :float left
+  :clear left
+  :font-size 12px
+  a
+    :display block
+    :text-decoration none
+    &:hover
+      :color #000
+  ul
+    :font-family = !sans_family
+    li a
+      :background #fff url("/images/admin/menu-bits.gif") no-repeat scroll 0 -310px
+      :border-right 1px solid #e3e3e3
+      :padding 2px 12px
+      :line-height 18px
+      :height 18px
+      &:hover
+        :background-color #eaf2fa
+    li.active > a
+      :background transparent url("/images/admin/menu-bits.gif") no-repeat scroll 0 -289px
+      :color #D54E21
+      &:hover
+        :color #000
+        :margin-left 0px
+        :padding-left 12px
+
+  ul.menu
+    :list-style-type none
+    :margin 0
+    :width 144px
+    > li
+      > a
+        :background #f1f1f1 url("/images/admin/menu-bits.gif") repeat-x scroll left -379px
+        :border
+          :style solid solid none
+          :width 1px
+          :color #e3e3e3
+        :font-family = !serif_family
+        :font-size 13px
+        :padding 0px 12px
+        :height 29px
+        :line-height 29px
+        &:hover
+          :color #D54E21
+      &.active > a
+        :background rgb(109,109,109)
+        :border-color rgb(109,109,109)
+        :color #fff
+      &:last-child
+        :border-bottom 1px solid #e3e3e3
+      &.first > a
+        +top-border-rounding
+      &.last.no-children > a
+        +bottom-border-rounding
+        :border-bottom-style solid
+
+  li.separator
+    :background #ddd
+    :height 1px
+    :margin 9px 0px
+    hr
+      :display none

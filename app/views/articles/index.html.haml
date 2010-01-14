@@ -1,0 +1,31 @@
+#main
+  .category.clearfix
+    %h1= category.name
+    %ul.subcategories
+      %li= link_to "All", ''
+      %li= link_to "SGA", ''
+      %li= link_to "Administration", ''
+      %li= link_to "Faculty", ''
+      %li= link_to "Research", ''
+      %li= link_to "On Campus", ''
+      %li= link_to "Colleges & Schools", ''
+      %li= link_to "Events", ''
+    .grid_5.alpha
+      - collection.each do |article|
+        = render :article => article
+      = render :article => @featured, :class => 'first', :photo => true
+      - @highlighted.each do |article|
+        = render :article => article, :header_tag => :h5
+    .grid_3.omega
+      = render :article => @featured, :class => 'first', :no_photo => true
+      - @highlighted.each do |article|
+        = render :article => article, :header_tag => :h6
+
+      - box "PantherWire" do
+        %p= link_to image_tag('/images/ads/pantherwire_twitter.jpg'), 'http://twitter.com/pantherwire'
+
+%ul#sidebar
+  %li.ad
+    = image_tag 'http://www.neonvenus.com/wp-content/uploads/2008/05/300x250.gif'
+  %li.popular
+    - box "Popular in News"

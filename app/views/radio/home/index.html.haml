@@ -1,0 +1,28 @@
+#main
+  .featured.content-box
+    = link_to image_tag('/images/radio/SAMPLE_featured_image.gif')
+    %h2= link_to "Cool shit"
+    %p Pick it up!
+    %p.more= link_to "Read more &raquo;"
+
+  :javascript
+    $(document).ready(function() {
+      $(".schedule-track").corners("10px");
+      $(".schedule-track .current").corners();
+    });
+
+  .schedule-track.content-box.clearfix
+    .cover
+    %h3 Now Playing
+    %ul
+      - @events[0..4].each do |event|
+        %li{:class => "#{'current' if @events[0] == event}"}[event]
+          .wrapper-1{:style => "#position: absolute; #top: 50%;display: table-cell; vertical-align: middle;"}
+            .wrapper-2{:style => "#position: relative; #top: -50%"}
+              = link_to event.title, {}, :class => 'title'
+            - unless event == @events[0]
+              .time
+                = event.start_time.strftime('%I%p').scan(/^0?(.*)/)[0] unless event == @events[0]
+                == -
+                = event.end_time.strftime('%I%p').scan(/^0?(.*)/)[0] unless event == @events[0]
+    = link_to "Full Schedule &raquo;", radio_schedule_path, :class => 'full-schedule'

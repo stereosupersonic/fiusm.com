@@ -1,0 +1,4 @@
+%li
+  - fields_for element do |f|
+    = element.class.fields.each do |field|
+      = f.send("#{field.type}_field", field.name)

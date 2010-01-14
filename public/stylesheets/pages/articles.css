@@ -1,0 +1,198 @@
+/* line 1, ../../../app/stylesheets/pages/categories.sass */
+.category {
+  padding: 10px 0; }
+  /* line 3, ../../../app/stylesheets/pages/categories.sass */
+  .category h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #777;
+    margin: 0.5em 0 0.35em;
+    letter-spacing: -1px; }
+  /* line 9, ../../../app/stylesheets/pages/categories.sass */
+  .category .subcategories {
+    background: #3b3b3b;
+    height: 27px;
+    line-height: 27px;
+    padding: 0px 5px;
+    margin: 0px 0px 10px; }
+    /* line 15, ../../../app/stylesheets/pages/categories.sass */
+    .category .subcategories li {
+      float: left; }
+    /* line 17, ../../../app/stylesheets/pages/categories.sass */
+    .category .subcategories a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 12px;
+      height: 27px;
+      display: block;
+      padding: 0px 8px; }
+    /* line 25, ../../../app/stylesheets/pages/categories.sass */
+    .category .subcategories a.active, .category .subcategories a:hover {
+      background: #4f4f4f; }
+  /* line 28, ../../../app/stylesheets/pages/categories.sass */
+  .category .item {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.75em;
+    margin-bottom: 0.75em; }
+    /* line 32, ../../../app/stylesheets/pages/categories.sass */
+    .category .item.first {
+      padding-bottom: 1em; }
+    /* line 34, ../../../app/stylesheets/pages/categories.sass */
+    .category .item.last {
+      border-bottom: none;
+      padding-bottom: 0;
+      margin-bottom: 0; }
+  /* line 38, ../../../app/stylesheets/pages/categories.sass */
+  .category .box {
+    margin-top: 1em; }
+    /* line 40, ../../../app/stylesheets/pages/categories.sass */
+    .category .box h3 {
+      margin-bottom: 0.5em; }
+
+/* line 10, ../../../app/stylesheets/pages/articles.sass */
+.article {
+  font-family: Georgia, "Times New Roman", serif;
+  overflow: hidden;
+  display: inline-block; }
+  /* line 5, ../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.8.17/frameworks/compass/stylesheets/compass/utilities/general/_hacks.sass */
+  .article {
+    display: block; }
+  /* line 15, ../../../app/stylesheets/pages/articles.sass */
+  .article h1 {
+    font-size: 28px;
+    color: #113759;
+    line-height: 32px;
+    margin-bottom: 0.4em; }
+  /* line 22, ../../../app/stylesheets/pages/articles.sass */
+  .article h3 {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #666;
+    margin-bottom: 0.75em; }
+  /* line 30, ../../../app/stylesheets/pages/articles.sass */
+  .article .byline {
+    margin: 0; }
+    /* line 32, ../../../app/stylesheets/pages/articles.sass */
+    .article .byline a {
+      font-style: italic;
+      text-decoration: none;
+      color: #013252; }
+      /* line 36, ../../../app/stylesheets/pages/articles.sass */
+      .article .byline a:hover {
+        text-decoration: underline; }
+  /* line 40, ../../../app/stylesheets/pages/articles.sass */
+  .article .date {
+    font-size: 11px;
+    margin: 0 0 1em 0; }
+    /* line 43, ../../../app/stylesheets/pages/articles.sass */
+    .article .date em {
+      color: #a21424;
+      font-weight: bold;
+      font-style: italic; }
+  /* line 49, ../../../app/stylesheets/pages/articles.sass */
+  .article .share {
+    height: 16px;
+    margin-bottom: 1em;
+    text-indent: -100em; }
+    /* line 53, ../../../app/stylesheets/pages/articles.sass */
+    .article .share li {
+      font-family: Georgia, "Times New Roman", serif;
+      width: 16px;
+      height: 16px;
+      line-height: 16px;
+      margin-right: 5px;
+      overflow: hidden;
+      float: left; }
+      /* line 61, ../../../app/stylesheets/pages/articles.sass */
+      .article .share li.delicious {
+        background-image: url(/images/icons/share_delicious.gif); }
+      /* line 63, ../../../app/stylesheets/pages/articles.sass */
+      .article .share li.digg {
+        background-image: url(/images/icons/share_digg.gif); }
+      /* line 65, ../../../app/stylesheets/pages/articles.sass */
+      .article .share li.newsvine {
+        background-image: url(/images/icons/share_newsvine.gif); }
+      /* line 67, ../../../app/stylesheets/pages/articles.sass */
+      .article .share li.technorati {
+        background-image: url(/images/icons/share_technorati.gif); }
+      /* line 69, ../../../app/stylesheets/pages/articles.sass */
+      .article .share li.stumbleupon {
+        background-image: url(/images/icons/share_stumbleupon.gif); }
+      /* line 71, ../../../app/stylesheets/pages/articles.sass */
+      .article .share li.reddit {
+        background-image: url(/images/icons/share_reddit.gif); }
+      /* line 73, ../../../app/stylesheets/pages/articles.sass */
+      .article .share li.tweet {
+        width: 80px;
+        margin-left: 10px;
+        text-indent: 0; }
+      /* line 77, ../../../app/stylesheets/pages/articles.sass */
+      .article .share li.email {
+        background: url(/images/icons/share_email.gif) no-repeat 0px 2px;
+        width: 17px;
+        text-indent: 0;
+        width: 80px; }
+        /* line 82, ../../../app/stylesheets/pages/articles.sass */
+        .article .share li.email a {
+          font-size: 11px;
+          text-decoration: none;
+          color: #666;
+          padding-left: 21px; }
+          /* line 87, ../../../app/stylesheets/pages/articles.sass */
+          .article .share li.email a:hover {
+            text-decoration: underline; }
+  /* line 91, ../../../app/stylesheets/pages/articles.sass */
+  .article .photos {
+    width: 300px;
+    float: right;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 11px;
+    margin: 0 0 1em 1em; }
+    /* line 98, ../../../app/stylesheets/pages/articles.sass */
+    .article .photos.wide {
+      float: none;
+      width: 100%;
+      margin: 0 0 1em; }
+      /* line 102, ../../../app/stylesheets/pages/articles.sass */
+      .article .photos.wide .photo {
+        border-bottom: none; }
+        /* line 104, ../../../app/stylesheets/pages/articles.sass */
+        .article .photos.wide .photo img {
+          width: 100%;
+          height: 300px; }
+      /* line 107, ../../../app/stylesheets/pages/articles.sass */
+      .article .photos.wide .credit, .article .photos.wide .caption {
+        font-family: "Helvetica Neue", Helvetica, sans-serif; }
+      /* line 109, ../../../app/stylesheets/pages/articles.sass */
+      .article .photos.wide .credit {
+        margin: 0;
+        font-size: 11px; }
+      /* line 112, ../../../app/stylesheets/pages/articles.sass */
+      .article .photos.wide .caption {
+        font-size: 13px; }
+    /* line 115, ../../../app/stylesheets/pages/articles.sass */
+    .article .photos .toolbar {
+      color: #003059;
+      background-color: #dfe6eb;
+      text-align: right;
+      padding: 0 0.5em;
+      margin-bottom: 1px; }
+      /* line 121, ../../../app/stylesheets/pages/articles.sass */
+      .article .photos .toolbar a {
+        color: #003059; }
+    /* line 123, ../../../app/stylesheets/pages/articles.sass */
+    .article .photos .photo {
+      border-bottom: 1px solid #ccc; }
+      /* line 125, ../../../app/stylesheets/pages/articles.sass */
+      .article .photos .photo img {
+        width: 300px; }
+  /* line 129, ../../../app/stylesheets/pages/articles.sass */
+  .article .content {
+    font-size: 14px;
+    line-height: 22px;
+    padding-right: 5em; }
+    /* line 133, ../../../app/stylesheets/pages/articles.sass */
+    .article .content em {
+      font-style: italic; }

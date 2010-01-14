@@ -1,0 +1,1 @@
+ActionController::Base.rescue_responses['Authorization::NotAuthorized'] = :not_found

@@ -1,0 +1,8 @@
+%tr{ :class => class_for_revision(revision) }
+  %td.revisable_number
+    = revision.revisable_number + 1
+  %td== Rick Martinez
+  - if revision == latest_article
+    %td= link_to nice_date(revision.updated_at)
+  - else
+    %td= link_to nice_date(revision.updated_at), :revision => revision.revisable_number

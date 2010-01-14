@@ -1,0 +1,134 @@
+//
+// Article view page
+//   FIUSM.com v2.0
+//   (C) 2009 Rick Martinez
+//
+
+@import ../lib/common
+@import categories
+
+.article
+  +serif-font-family
+  +clearfix
+
+  // headline
+  h1
+    :font-size 28px
+    :color #113759
+    :line-height 32px
+    :margin-bottom 0.4em
+    
+  // subhead
+  h3
+    +sans-serif
+    :font-size 18px
+    :line-height 22px
+    :color #666
+    :margin-bottom 0.75em
+
+  // byline
+  .byline
+    :margin 0
+    a
+      :font-style italic
+      :text-decoration none
+      :color #013252
+      &:hover
+        :text-decoration underline
+
+  // date
+  .date
+    :font-size 11px
+    :margin 0 0 1em 0
+    em
+      :color #a21424
+      :font-weight bold
+      :font-style italic
+
+  // sharing
+  .share
+    :height 16px
+    :margin-bottom 1em
+    :text-indent -100em
+    li
+      +serif
+      :width 16px
+      :height 16px
+      :line-height 16px
+      :margin-right 5px
+      :overflow hidden
+      :float left
+      &.delicious
+        :background-image url(/images/icons/share_delicious.gif)
+      &.digg
+        :background-image url(/images/icons/share_digg.gif)
+      &.newsvine
+        :background-image url(/images/icons/share_newsvine.gif)
+      &.technorati
+        :background-image url(/images/icons/share_technorati.gif)
+      &.stumbleupon
+        :background-image url(/images/icons/share_stumbleupon.gif)
+      &.reddit
+        :background-image url(/images/icons/share_reddit.gif)
+      &.tweet
+        :width 80px
+        :margin-left 10px
+        :text-indent 0
+      &.email
+        :background url(/images/icons/share_email.gif) no-repeat 0px 2px
+        :width 17px
+        :text-indent 0
+        :width 80px
+        a
+          :font-size 11px
+          :text-decoration none
+          :color #666
+          :padding-left 21px
+          &:hover
+            :text-decoration underline
+
+  // inline photos
+  .photos
+    :width 300px
+    :float right
+    +sans-serif
+    :font-size 11px
+    :margin 0 0 1em 1em
+    // wide photo
+    &.wide
+      :float none
+      :width 100%
+      :margin 0 0 1em
+      .photo
+        :border-bottom none
+        img
+          :width 100%
+          :height 300px
+      .credit, .caption
+        +sans-serif
+      .credit
+        :margin 0
+        :font-size 11px
+      .caption
+        :font-size 13px
+
+    .toolbar
+      :color #003059
+      :background-color #dfe6eb
+      :text-align right
+      :padding 0 0.5em
+      :margin-bottom 1px
+      a
+        :color #003059
+    .photo
+      :border-bottom 1px solid #ccc
+      img
+        :width 300px
+      
+  // content
+  .content
+    :font-size 14px
+    :line-height 22px
+    :padding-right 5em
+    em
+      :font-style italic

@@ -1,0 +1,8 @@
+%h2== Editing #{resource_class.to_s} ##{resource.id}
+
+- box resource_class.to_s do
+  - form_for resource, :url => [:admin, resource] do |f|
+    - scaffold.columns.each do |column|
+      = f.text_field column
+    = f.submit
+  

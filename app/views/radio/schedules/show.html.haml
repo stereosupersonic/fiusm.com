@@ -1,0 +1,18 @@
+#events
+  %h3.embossed_header
+    = "Today, " if DateTime.now.hour < 4 && @date == Date.today - 1.day || @date == Date.today
+    = "Tomorrow, " if (DateTime.now + 1.day).hour < 4 && @date == Date.today || @date == Date.today + 1.day
+    = @date.strftime('%A, %B %d')
+  %ul
+    - @events.each do |event|
+      %li{:class => "clearfix #{'currently_on ' if event.currently_on?}"}
+        %h4= link_to_if event.show, event.title, event.show
+        %p.time= schedule_times_for_event(event)
+
+#days
+  %ul
+    = schedule_days
+  / %p
+  /   = link_to "&laquo; Previous", {}, :class => 'previous'
+  /   |
+  /   = link_to "Next &raquo;", {}, :class => 'next'

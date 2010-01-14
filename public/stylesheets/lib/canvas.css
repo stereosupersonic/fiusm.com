@@ -1,0 +1,97 @@
+/* line 1, ../../../app/stylesheets/lib/canvas.sass */
+#featured_items {
+  margin-top: 10px;
+  margin-bottom: 1em; }
+
+/* line 8, ../../../app/stylesheets/lib/canvas.sass */
+.article.item .label {
+  font-size: 11px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", serif;
+  text-transform: uppercase;
+  color: #818181; }
+/* line 14, ../../../app/stylesheets/lib/canvas.sass */
+.article.item h5.label {
+  font-size: 12px; }
+/* line 18, ../../../app/stylesheets/lib/canvas.sass */
+.article.item .headline {
+  color: #0b2a46;
+  font-family: Georgia, "Times New Roman", serif;
+  margin: 0 0 0.1em;
+  line-height: 1.3em; }
+/* line 23, ../../../app/stylesheets/lib/canvas.sass */
+.article.item h2.headline {
+  font-size: 24px; }
+/* line 25, ../../../app/stylesheets/lib/canvas.sass */
+.article.item h3.headline {
+  font-size: 20px; }
+/* line 27, ../../../app/stylesheets/lib/canvas.sass */
+.article.item h4.headline {
+  font-size: 18px; }
+/* line 29, ../../../app/stylesheets/lib/canvas.sass */
+.article.item h5.headline {
+  font-size: 16px; }
+/* line 31, ../../../app/stylesheets/lib/canvas.sass */
+.article.item h6.headline {
+  font-size: 14px; }
+/* line 35, ../../../app/stylesheets/lib/canvas.sass */
+.article.item .photo {
+  margin: 6px 0 5px; }
+  /* line 37, ../../../app/stylesheets/lib/canvas.sass */
+  .article.item .photo .image {
+    margin-bottom: 3px; }
+  /* line 39, ../../../app/stylesheets/lib/canvas.sass */
+  .article.item .photo .credit {
+    text-align: right;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #666; }
+/* line 46, ../../../app/stylesheets/lib/canvas.sass */
+.article.item a {
+  text-decoration: none; }
+  /* line 48, ../../../app/stylesheets/lib/canvas.sass */
+  .article.item a:hover {
+    text-decoration: underline; }
+/* line 52, ../../../app/stylesheets/lib/canvas.sass */
+.article.item p {
+  margin: 0;
+  line-height: 1.4em;
+  font-size: 11px; }
+/* line 58, ../../../app/stylesheets/lib/canvas.sass */
+.article.item p.author {
+  font-size: 10px;
+  color: #777; }
+  /* line 61, ../../../app/stylesheets/lib/canvas.sass */
+  .article.item p.author a {
+    color: #777;
+    font-weight: bold; }
+/* line 66, ../../../app/stylesheets/lib/canvas.sass */
+.article.item ul {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 1.3em;
+  margin: 10px 0 0 5px; }
+  /* line 71, ../../../app/stylesheets/lib/canvas.sass */
+  .article.item ul li {
+    background: url(../images/layout/bullet.gif) no-repeat 0px 6px;
+    padding: 0 0 0 10px;
+    margin-bottom: 6px; }
+  /* line 75, ../../../app/stylesheets/lib/canvas.sass */
+  .article.item ul .tag {
+    color: #8f7326;
+    text-transform: uppercase; }
+
+/* line 80, ../../../app/stylesheets/lib/canvas.sass */
+.canvas .alpha {
+  border-right: 1px solid #aaa;
+  margin-right: 0 !important;
+  padding-right: 9px; }
+/* line 84, ../../../app/stylesheets/lib/canvas.sass */
+.canvas .item {
+  margin-top: 10px; }
+/* line 86, ../../../app/stylesheets/lib/canvas.sass */
+.canvas .centered {
+  text-align: center; }
+/* line 88, ../../../app/stylesheets/lib/canvas.sass */
+.canvas h3.headline {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; }

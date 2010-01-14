@@ -1,0 +1,8 @@
+%h2 Editing Item Template
+- side_column do
+  - box 'Actions' do
+    = form.submit 'Save'
+- wide_column do
+  - box 'Item Template' do
+    = form.text_field :name
+    = form.text_area :source, :style => 'font-family: monospace; font-size: 14px; height: 400px'

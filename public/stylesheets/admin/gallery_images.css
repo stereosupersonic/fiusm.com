@@ -1,0 +1,8 @@
+/* line 2, ../../../app/stylesheets/admin/gallery_images.sass */
+#upload-queue li {
+  width: 250px;
+  font-weight: bold; }
+  /* line 5, ../../../app/stylesheets/admin/gallery_images.sass */
+  #upload-queue li .progress {
+    float: right;
+    font-weight: normal; }

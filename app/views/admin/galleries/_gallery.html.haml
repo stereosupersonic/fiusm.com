@@ -1,0 +1,71 @@
+:ruby
+
+  image_count  = gallery.images.size
+  column_count = 5
+  row_count    = (image_count / column_count) + 1
+
+  rows = []
+  row_count.times do |row_index|
+    start =  row_index * column_count
+    finish = start + column_count
+    rows << gallery.images[start..finish]
+  end
+
+.gallery
+  %p#swfupload_link= link_to 'Upload Images'
+  %p.upload_status
+  :javascript
+    $(document).ready(function() {
+
+      function updateStatus(file, complete, total) {
+        stats = swfupload.getStats();
+        string = "Uploaded: " + stats.successful_uploads + " Remaining: " + stats.files_queued
+        if (complete != null) {
+          string += " - " + complete + "/" + total
+        }
+        $('.upload_status').html(string);
+      }
+
+      swfupload = new SWFUpload({
+        flash_url  : '/flash/swfupload.swf',
+        upload_url : '#{admin_gallery_images_path(gallery, session_url_hash)}',
+        button_text: 'Upload',
+        button_text_style: 'font-family: sans-serif',
+        button_placeholder_id: 'swfupload_link',
+        button_width : '200',
+        button_height: '25',
+        button_cursor: 'pointer',
+        post_params: {
+          authenticity_token: '#{u form_authenticity_token}'
+        },
+        file_post_name: 'image[file]',
+        file_dialog_complete_handler: function() {
+          this.totalUploads = this.getStats().files_queued;
+          this.startUpload();
+        },
+        upload_complete_handler: function(file) {    
+          if (this.getStats().files_queued > 0)
+            this.startUpload();
+          else
+            location.reload(true);
+
+          updateStatus(file);
+        },
+        upload_progress_handler: updateStatus
+      });
+    })
+
+
+  - unless local_assigns[:pagination] == false
+    .pagination-wrap
+      = will_paginate gallery.images.paginate :page => (local_assigns[:page] || 1)
+
+  %table
+    - rows.each do |columns|
+      %tr
+        - columns.each do |image|
+          %td= render image, :partial => 'admin/images/image'
+
+  - unless local_assigns[:pagination] == false
+    .pagination-wrap
+      = will_paginate gallery.images.paginate :page => (local_assigns[:page] || 1)

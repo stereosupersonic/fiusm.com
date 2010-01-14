@@ -1,0 +1,15 @@
+/* line 1, ../../../app/stylesheets/elements/photo.sass */
+.photo {
+  color: #555;
+  margin-bottom: 0.75em; }
+  /* line 4, ../../../app/stylesheets/elements/photo.sass */
+  .photo .image {
+    margin: 0; }
+  /* line 6, ../../../app/stylesheets/elements/photo.sass */
+  .photo .credit {
+    text-align: right;
+    margin-bottom: 0.3em; }
+  /* line 9, ../../../app/stylesheets/elements/photo.sass */
+  .photo .caption {
+    font-size: 12px;
+    line-height: 17px; }

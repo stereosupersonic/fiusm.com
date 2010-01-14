@@ -1,0 +1,39 @@
+// links
+a
+  :color = !main_accent
+  &:hover
+    :color = !main_accent_hover
+
+=underline-on-hover
+  :text-decoration none
+  &:hover
+    :text-decoration underline
+
+// photos    
+.photo
+  :color #555
+  :margin-bottom 0.75em
+  .image
+    :margin 0
+  .credit
+    :text-align right
+    :margin-bottom 0.3em
+  .caption
+    :font-size 12px
+    :line-height 17px
+
+// blocks
+=block-header
+  :background url(../images/layout/box_header_bg.gif) right bottom
+  span
+    :background url(../images/layout/box_header_bg.gif) left top
+    :color #fff
+    :height 24px
+    :line-height 24px
+    :padding 0px 1em
+    :font-weight bold
+    :font-size 11px
+    :display block
+
+.box h3, #sidebar li h3
+  +block-header

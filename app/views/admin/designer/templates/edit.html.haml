@@ -1,0 +1,2 @@
+- form_for :canvas_template, resource, :url => admin_designer_template_url(resource), :html => { :method => :put } do |form|
+  = render :partial => 'form', :locals => { :form => form }

@@ -1,0 +1,71 @@
+- require_javascript 'http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAfSWQzEW43x_aLNnGHZnIgxT2yXp_ZAY8_ufC3CFXhHIE1NvwkxQxAvFwSxYNoza1Af8kHJ-6JdH3Fg'
+
+:javascript
+  var map;
+  var towers = #{@towers.to_json};
+  $(document).ready(function() {
+    if (GBrowserIsCompatible()) {
+    
+      // Initialize map
+      map = new GMap2(document.getElementById("map_canvas"));
+      map.setCenter(new GLatLng(25.75688, -80.373015), 14);
+      map.addControl(new GHierarchicalMapTypeControl());
+      map.addControl(new GLargeMapControl3D());
+      map.addControl(new GScaleControl());
+      
+      // Display the towers
+      $(towers).each(function(index, tower) {
+        var point = new GLatLng(tower.latitude, tower.longitude)
+        tower.marker = new GMarker(point, {title: tower.name})
+        map.addOverlay(tower.marker);
+        $('#radio_tower_' + tower.id).get(0).tower = tower;
+      })
+      
+      // Set up the links
+      $('#towers .locate').click(function() {
+        var tower = $(this).closest('li').get(0).tower;
+        map.setCenter(tower.marker.getLatLng());
+        return false;
+      })
+          
+      function updateDistances() {
+        $(towers).each(function(index, tower) {
+          var distance = map.getCenter().distanceFrom(tower.marker.getLatLng());
+          if (distance < 2000) {
+            $('#radio_tower_' + tower.id).addClass('active');
+          } else {
+            $('#radio_tower_' + tower.id).removeClass('active');
+          }
+        })
+      }
+      
+      updateDistances();
+      GEvent.addListener(map, "move", updateDistances);
+    }
+  })
+  
+  $(window).unload(function() {
+    GUnload();
+  })
+
+#map_wrapper
+  #map
+    #map_canvas
+
+%ul#towers
+  - @towers.each do |tower|
+    %li[tower]
+      %h3= link_to tower.name, radio_signal_url(tower)
+      %p.frequency= tower.frequency
+      %dl
+        %dt Latitude
+        %dd= tower.latitude
+        %dt Longitude
+        %dd= tower.longitude
+      %p.more_info
+        = link_to "Locate &raquo;", radio_signal_url(tower), :class => 'locate'
+        -#\-
+        -#= link_to "More Info &raquo;", radio_signal_url(tower)
+    
+    
+/ ABQIAAAAfSWQzEW43x_aLNnGHZnIgxQoLMJ03MzAwAAs9liEAb-B_uRC4BR5HChy9qmCRoud7r9Ew8venzAUcA

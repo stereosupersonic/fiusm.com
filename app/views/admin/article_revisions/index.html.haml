@@ -1,0 +1,14 @@
+- wide_column do
+  %h2 Article Comparison
+  %p
+    Changes that
+    %strong Rick Martinez
+    made to
+    %strong Chris Cabral's
+    version of the article
+    == "#{@article.headline}"
+    (5 vs. 4)
+  .article_body
+    - from = @article.find_revision(@from_revision).body.to_html
+    - to   = @article.find_revision(@to_revision).body.to_html
+    = HtmlDiff.new(from, to).to_html
