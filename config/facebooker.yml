@@ -12,17 +12,23 @@
 development:
   api_key: 822879e72e4435fa6703c49d1fe94c5e
   secret_key: 9d74befacaff0adc8f47fce477548b27
+  callback_url: http://lo0.fiusm.com
   pretty_errors: true
   set_asset_host_to_callback_url: true
 test:
   api_key: 822879e72e4435fa6703c49d1fe94c5e
   secret_key: 9d74befacaff0adc8f47fce477548b27
-  callback_url: http://lo0.fiusm.com
+  pretty_errors: true
+  set_asset_host_to_callback_url: true
+beta:
+  api_key: 822879e72e4435fa6703c49d1fe94c5e
+  secret_key: 9d74befacaff0adc8f47fce477548b27
+  callback_url: http://beta.fiusm.com
   pretty_errors: true
   set_asset_host_to_callback_url: true
 production:
   api_key: 822879e72e4435fa6703c49d1fe94c5e
   secret_key: 9d74befacaff0adc8f47fce477548b27
-  callback_url: http://lo0.fiusm.com
+  callback_url: http://fiusm.com
   pretty_errors: true
   set_asset_host_to_callback_url: true
