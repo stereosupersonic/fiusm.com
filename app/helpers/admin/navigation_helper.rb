@@ -1,7 +1,9 @@
 module Admin::NavigationHelper
 
+  include Menu::Helper
+
   def navigation
-    semantic_menu do |root|
+    menu do |root|
       root.add "Articles", admin_articles_url do |articles|
         articles.add "Create New", new_admin_article_url
         articles.add "List",       admin_articles_url
