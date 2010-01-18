@@ -2,6 +2,8 @@ class ApplicationController < ActionController::Base
   helper :all
   protect_from_forgery
 
+  before_filter :verify_beta_status unless RAILS_ENV =~ /development/i
+
   include FacebookAuthentication
 
   #
@@ -34,6 +36,19 @@ class ApplicationController < ActionController::Base
   helper_method :article_revision_path
   def article_revision_path(*args)
     article_path(*args)
+  end
+  
+  protected
+  
+  def verify_beta_status
+    create_facebook_session
+    uid = current_user_session.try(:user).try(:uid)
+
+    if uid && BetaRegistration.find_by_facebook_uid_and_activated(uid, true)
+      # do nothing
+    else
+      redirect_to beta_url unless controller_name == 'beta_registrations'
+    end
   end
 
 end

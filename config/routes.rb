@@ -1,5 +1,8 @@
 ActionController::Routing::Routes.draw do |map|
 
+  # beta
+  map.beta 'beta', :controller => 'beta_registrations'
+
   # admin
   map.namespace :admin do |admin|
     # root

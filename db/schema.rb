@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100112131427) do
+ActiveRecord::Schema.define(:version => 20100118174201) do
 
   create_table "articles", :force => true do |t|
     t.string   "headline"
@@ -50,6 +50,14 @@ ActiveRecord::Schema.define(:version => 20100112131427) do
   create_table "authorships", :force => true do |t|
     t.integer "article_id"
     t.integer "author_id"
+  end
+
+  create_table "beta_registrations", :force => true do |t|
+    t.string   "name"
+    t.integer  "facebook_uid"
+    t.boolean  "activated",    :default => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "canvas_templates", :force => true do |t|
@@ -161,18 +169,40 @@ ActiveRecord::Schema.define(:version => 20100112131427) do
     t.text     "description"
   end
 
+  create_table "radio_towers", :force => true do |t|
+    t.string  "name"
+    t.decimal "latitude",  :precision => 15, :scale => 10
+    t.decimal "longitude", :precision => 15, :scale => 10
+    t.float   "frequency"
+    t.string  "permalink"
+  end
+
   create_table "roles", :force => true do |t|
     t.string  "title"
     t.integer "user_id"
   end
 
+  create_table "song_plays", :force => true do |t|
+    t.integer  "session_id"
+    t.integer  "song_id"
+    t.datetime "started_at"
+    t.datetime "ended_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "radio_session_id"
+  end
+
+  create_table "songs", :force => true do |t|
+    t.string   "album"
+    t.string   "artist"
+    t.string   "title"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "users", :force => true do |t|
-    t.string   "name",                                 :null => false
-    t.integer  "facebook_uid",                         :null => false
+    t.integer  "facebook_uid",      :null => false
     t.string   "persistence_token"
-    t.boolean  "admin",             :default => false, :null => false
-    t.boolean  "dj",                :default => false, :null => false
-    t.boolean  "writer",            :default => false, :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
