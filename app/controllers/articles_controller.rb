@@ -44,7 +44,7 @@ class ArticlesController < ApplicationController
         if params[:category_id]
           Category.find(params[:category_id])
         elsif params[:category_url]
-          Category.find_by_url(params[:category_url])
+          Category.find_by_url!(params[:category_url])
         else
           nil
         end
