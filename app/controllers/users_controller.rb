@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
   
   skip_before_filter :verify_facebook_session
-  
+
   def create
     facebook_user = current_user_session.user
     unless User.find_by_facebook_uid(facebook_user.uid)

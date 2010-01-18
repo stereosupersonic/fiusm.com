@@ -32,12 +32,8 @@ class User < ActiveRecord::Base
     raise e
   end
   
-  def first_name
-    @first_name ||= name.split(' ').first
-  end
-  
-  def last_name
-    @last_name ||= name.split(' ').last
+  def admin!
+    roles.find_or_create_by_title 'admin'
   end
   
   def to_fb

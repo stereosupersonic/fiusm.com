@@ -8,6 +8,7 @@ module FacebookAuthentication
       helper_method :session_url_hash
 
       before_filter :create_facebook_session
+      before_filter :verify_facebook_session
       before_filter :set_user_timezone
       
       rescue_from Facebooker::Session::SessionExpired, :with => :expire_facebook_session
@@ -38,10 +39,6 @@ module FacebookAuthentication
 
   private  
 
-    def create_facebook_session
-      super && verify_facebook_session
-    end
-
     def current_user_session
       return @current_user_session if defined?(@current_user_session)
       @current_user_session = facebook_session
@@ -59,16 +56,21 @@ module FacebookAuthentication
     end
     
     def verify_facebook_session
-      return true
-      begin
-        session_key = current_user_session.session_key
-        x = current_user_session.post('facebook.users.getLoggedInUser', :session_key => session_key)
-        
-        # catch a hijacker
-        fb_user_id = params[:fb_sig_canvas_user] || params[:fb_sig_user]
-        raise if fb_user_id && fb_user_id.to_i != current_user_session.user.id
-      rescue Exception => e
-        raise 
+      if session = current_user_session
+        begin
+          session_key = current_user_session.session_key
+          true || current_user_session.post('facebook.users.getLoggedInUser', :session_key => session_key)
+
+          # catch a hijacker
+          fb_user_id = params[:fb_sig_canvas_user] || params[:fb_sig_user]
+          raise if fb_user_id && fb_user_id.to_i != current_user_session.user.id
+
+          redirect_to register_path if current_user.nil?
+        rescue Exception => e
+          raise e
+        end
+      else
+        return false
       end
     end
 
