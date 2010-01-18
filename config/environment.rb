@@ -25,7 +25,7 @@ Rails::Initializer.run do |config|
 
   config.gem 'acts_as_revisable'
   config.gem 'paperclip'
-  config.gem 'rmagick'
+  config.gem 'rmagick', :lib => 'RMagick'
 
   # Time Zone
   config.time_zone = 'Eastern Time (US & Canada)'
