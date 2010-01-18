@@ -1,5 +1,6 @@
 class Admin::GalleriesController < Scaffold::Controller
 
+  filter_resource_access
   inherit_resources
 
   class IndexSettings
