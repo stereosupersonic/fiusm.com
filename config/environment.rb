@@ -18,6 +18,7 @@ Rails::Initializer.run do |config|
   config.gem 'authlogic'
   config.gem 'declarative_authorization'
 
+  config.gem 'ruby-hmac', :lib => 'hmac'
   config.gem 'gdata'
 
   config.gem 'will_paginate'
@@ -31,5 +32,7 @@ Rails::Initializer.run do |config|
   config.time_zone = 'Eastern Time (US & Canada)'
   
   # Middleware load path
-  config.load_paths += %W( #{RAILS_ROOT}/app/middleware )
+  %W(app/middleware app/models/radio).each do |path|
+    config.load_paths << Rails.root.join(path).to_s
+  end
 end
