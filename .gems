@@ -13,6 +13,7 @@ facebooker
 authlogic
 declarative_authorization
 
+ruby-hmac
 gdata
 
 will_paginate
