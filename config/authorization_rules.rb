@@ -1,6 +1,15 @@
 authorization do
   role :admin do
+    includes :guest, :photo_editor
     has_permission_on :site, :to => :manage
+  end
+  
+  role :photo_editor do
+    has_permission_on :gallery, :to => :manage
+  end
+  
+  role :guest do
+    has_permission_on :gallery, :to => :create
   end
 end
  
