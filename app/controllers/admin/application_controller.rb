@@ -11,7 +11,6 @@ class Admin::ApplicationController < ApplicationController
   end
 
   def permission_denied
-    raise cookies.inspect
     raise Authorization::NotAuthorized
   end
 
